@@ -16,6 +16,7 @@ module.exports = (sequelize, DataTypes) => {
       recipe.hasMany(models.instructions);
       recipe.belongsTo(models.prefectures);
       recipe.hasMany(models.saved);
+      recipe.hasMany(models.saveduser);
     }
   }
   recipe.init({

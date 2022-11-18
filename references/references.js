@@ -16,3 +16,7 @@
 //https://www.kurashiru.com/recipes/380658ee-e3ec-418a-a865-a37652c80818
 // https://www.acouplecooks.com/sake-substitute/
 // https://www.bonappetit.com/story/what-is-mirin-how-to-substitute#:~:text=You%20can%20always%20buy%20mirin,for%20every%20tablespoon%20you%20use.
+//https://www.justonecookbook.com/yakisoba/
+//https://www.japan.travel/en/destinations/tohoku/yamagata/
+// https://www.japan-guide.com/list/e1208.html
+// https://www.japan-experience.com/plan-your-trip/to-know/traveling-japan/ibaraki-prefecture
