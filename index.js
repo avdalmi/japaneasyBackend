@@ -23,8 +23,9 @@ app.use(express.json());
 
 
 //routes
-app.use("/auth", authRouter);
+app.use("/", authRouter);
 app.use("/recipes", recipeRouter);
+
 
 
 //start listening

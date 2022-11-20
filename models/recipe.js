@@ -15,8 +15,11 @@ module.exports = (sequelize, DataTypes) => {
       recipe.hasMany(models.ingredient);
       recipe.hasMany(models.instructions);
       recipe.belongsTo(models.prefectures);
-      recipe.hasMany(models.saved);
-      recipe.hasMany(models.saveduser);
+
+      recipe.belongsToMany(models.user, {
+        through: "SavedUsers",
+        foreignKey: "recipeId"
+      });
     }
   }
   recipe.init({

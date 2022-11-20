@@ -325,16 +325,274 @@ module.exports = {
         description: "Arrange on a plate and sprinkle with aonori and serve.",
         recipeId: 11
       },
+      {
+        step: 1,
+        description: "Peel the Japanese taro, grate it, put it in a bowl, and mix it with the cake flour and beaten egg. Knead until soft like an earlobe. Cover with plastic wrap and leave for 1-2 hours to make it soft and stretchy.",
+        recipeId: 12
+      },
+      {
+        step: 2,
+        description: "Cut the daikon into chunks, the fried tofu into strips, the spring onion into rounds, and slice the shiitake mushrooms",
+        recipeId: 12
+      },
+      {
+        step: 3,
+        description: "Put water and shirodashi in a pot, add root vegetables such as daikon radish, carrots and lotus root, and heat.",
+        recipeId: 12
+      },
+      {
+        step: 4,
+        description: "After 2 to 3 minutes after boiling, add the dough with a spoon and add it while making it round. (The picture is large, but the smaller ones are softer and easier to eat.)",
+        recipeId: 12
+      },
+      {
+        step: 5,
+        description: "Add the rest of the shiitake mushrooms, green onions, and fried tofu and simmer for about 2 minutes.",
+        recipeId: 12
+      },
+      {
+        step: 6,
+        description: "Finally, add soy sauce and mix to complete.",
+        recipeId: 12
+      },
+      {
+        step: 1,
+        description: "Separate Shimeji mushrooms into pieces. Slice Shiitake thinly.",
+        recipeId: 13
+      },
+      {
+        step: 2,
+        description: "Wash rice and put in the rice cooker's removable bowl. Add salt, Soy Sauce, Sake and Mirin and stir. Add enough water to reach the line for 2 cups of rice, and then add mushrooms. Cook like white rice (according to the rice cooker instructions).",
+        recipeId: 13
+      },
+      {
+        step: 3,
+        description: "After the rice is done, mix in green onions.",
+        recipeId: 13
+      },
+      {
+        step: 1,
+        description: "Cut carrot into thin match sticks. Measure about 2 cups.",
+        recipeId: 14
+      },
+      {
+        step: 2,
+        description: "Heat sesame oil in a frying pan at medium low heat. Add carrot and cook until tender, taking care not to brown too much. Add Soy Sauce, Sake, and salt, and cook for a minute.",
+        recipeId: 14
+      },
+      {
+        step: 3,
+        description: "Add egg and stir like making scrambled eggs. When egg is set, remove from heat.",
+        recipeId: 14
+      },
+      {
+        step: 1,
+        description: "Cut Kabocha into small pieces and place in a microwave-safe dish. Cover and cook about 6 minutes in the microwave oven or until soft. Remove skins and mash Kabocha (you don't need to mash all the way if you want it chunky).",
+        recipeId: 15
+      },
+      {
+        step: 2,
+        description: "Slice cucumber thinly and sprinkle with salt in another bowl. Let it sit for a few minutes and squeeze water out.",
+        recipeId: 15
+      },
+      {
+        step: 3,
+        description: "Mix Kabocha, cucumber, lemon juice and mayonnaise. Salt and pepper to taste.",
+        recipeId: 15
+      },
+      {
+        step: 1,
+        description: "Blanch okra and slice thinly. Dice tomato into small cube and cut Nagaimo into thin match sticks. Cut Shiso leaves very thinly. Keep all the vegetables cold in the fridge.",
+        recipeId: 16
+      },
+      {
+        step: 2,
+        description: "Cook dried Somen noodles according to the package. Wash well under running water. Chill in ice water if you like. Drain water when noodles are cold.",
+        recipeId: 16
+      },
+      {
+        step: 3,
+        description: "Mix Mentsuyu and cold water.",
+        recipeId: 16
+      },
+      {
+        step: 4,
+        description: "Place half of noodles in a deep dish or bowl and top with vegetables. Pour half of the sauce on top. Repeat for second serving.",
+        recipeId: 16
+      },
+      {
+        step: 1,
+        description: "Cut potato into 1/4” (6 mm) thick bite size pieces. Peel carrot, cut vertically in half, and slice thinly. Cut Napa cabbage into 1” (2.4 mm) wide strips.",
+        recipeId: 17
+      },
+      {
+        step: 2,
+        description: "Boil Dashi, add vegetables (except green onions), and cook until tender.",
+        recipeId: 17
+      },
+      {
+        step: 3,
+        description: "Dissolve Miso paste in the soup. Add green onions just before serving.",
+        recipeId: 17
+      },
+      {
+        step: 1,
+        description: "Cut Nappa cabbage into bite size pieces. Slice long white onions diagonally. Cut Nira into 2 inch long pieces. Pull apart mushrooms into small bunches by hand. Cut Tofu into 8-10 pieces. Cut thinly sliced pork into smaller pieces if too big.",
+        recipeId: 18
+      },
+      {
+        step: 2,
+        description: "In a large pot, heat sesame oil at medium heat. Add Kimchi and cook for a couple of minutes. Add Dashi and Kimchi liquid. When the soup starts to boil, add Miso paste, Sake, and salt to taste.",
+        recipeId: 18
+      },
+      {
+        step: 3,
+        description: "Then add all the vegetables except Nira. Cook covered until vegetables are tender. Add sliced pork, and lastly Nira.",
+        recipeId: 18
+      },
+      {
+        step: 1,
+        description: "Chop cabbage finely. Sprinkle 1/4 tsp salt over cabbage and mix. Let sit for 5 minutes, and squeeze out water very well. Do the same for the onion. Cut Nira, Shiitake, and bamboo shoot into very small pieces. Grate garlic and ginger.",
+        recipeId: 19
+      },
+      {
+        step: 2,
+        description: "In a large bowl, put in all the ingredients (except skins and frying oil), and mix well.",
+        recipeId: 19
+      },
+      {
+        step: 3,
+        description: "Take a sheet of gyoza wrapper in your hand and place about a tablespoon of the mixture in the center of the wrapper. Moisten the edge along the lower half of the wrapper and fold the upper half of the wrapper up to meet the moistened edge. Fold one of the edges in a series of pleats (about 6), leaving the other edge smooth. Press the edges together to seal the gyoza. Repeat for the rest of the wrappers.",
+        recipeId: 19
+      },
+      {
+        step: 4,
+        description: "Heat deep-frying oil at medium high heat. Deep fry Gyoza until golden.",
+        recipeId: 19
+      },
+      {
+        step: 5,
+        description: "Mix soy sauce, rice vinegar, and Rayu chili oil (optional) together for a dipping sauce.",
+        recipeId: 19
+      },
+      {
+        step: 1,
+        description: "Remove cabbage leaves carefully, not tearing too much. Microwave cabbage for 2 minutes to make cabbage pliable. Set aside. Chop onion finely.",
+        recipeId: 20
+      },
+      {
+        step: 2,
+        description: "Put meat, onion, salt and pepper, egg, and Panko together in a large bowl, and then mix very well. Divide the meat into 10 portions and form each into a rough cylinder. Wrap each meat ball with cabbage tucking the end of the leaf under. Place cabbage wrapped meat in a pan that fits 10 pieces of them.",
+        recipeId: 20
+      },
+      {
+        step: 3,
+        description: "Add the rest of the ingredients to the pot, and cook at medium heat covering loosely for 20 minutes or so.",
+        recipeId: 20
+      },
+      {
+        step: 4,
+        description: "Serve with chopped parsley.",
+        recipeId: 20
+      },
+      {
+        step: 1,
+        description: "Cut fillets into 3 pieces, and blanch in boiling water for a couple of seconds . Remove from water and set aside.",
+        recipeId: 21
+      },
+      {
+        step: 2,
+        description: "Cut Daikon radish into 1 inch thick rounds. Then peel and cut into halves. Round off the sharp edges. In a pot boil enough water to cover, and cook Daikon for 15 minutes until easily pierced with a toothpick. Strain water and set aside.",
+        recipeId: 21
+      },
+      {
+        step: 3,
+        description: "Cut ginger thinly, like matchsticks.",
+        recipeId: 21
+      },
+      {
+        step: 4,
+        description: "In a medium pot, add water, Soy Sauce, Sake, Mirin, and sugar, and let boil. Add fish, Daikon, and ginger. Cover with parchment paper and cook 25 minutes. Cool completely. Serve at room temperature or reheat.",
+        recipeId: 21
+      },
+      {
+        step: 1,
+        description: "Slice tomatoes thinly, and place them to cover the plate. Finely grate Daikon radish and set aside. Chop green onions into small pieces and set aside.",
+        recipeId: 22
+      },
+      {
+        step: 2,
+        description: "Make the dressing. Mix all the ingredients for the dressing and set aside.",
+        recipeId: 22
+      },
+      {
+        step: 3,
+        description: "n a large pot, boil water and cook pork slices one by one for 15 seconds or so. Remove from hot water, put in ice water to cool, and pat dry with paper towel.",
+        recipeId: 22
+      },
+      {
+        step: 4,
+        description: "Place grated Daikon radish and pork over tomatoes, top with chopped green onions. At this point you can chill in the fridge for 1/2-1 hour. Drizzle the dressing before serving.",
+        recipeId: 22
+      },
+
+      {
+        step: 1,
+        description: "Peel and cut the carrot into 7.5cm by 8mm square sticks. Cut green beans into 3cm long pieces.",
+        recipeId: 23
+      },
+      {
+        step: 2,
+        description: "Cook carrot first in salted boiling water for 2 minutes, and add green beans and cook together for another 2 minutes. Strain and let them cool.",
+        recipeId: 23
+      },
+      {
+        step: 3,
+        description: "In a small bowl, mix Soy Sauce, sugar, Sake, and 2 Tbsp water until the sugar dissolves completely. Set aside.",
+        recipeId: 23
+      },
+      {
+        step: 4,
+        description: "Open up a thin beef strip on a cutting board, place 2-3 carrot sticks and 2-3 green beans on the end of the meat, and then roll up. Repeat for each strip of meat.",
+        recipeId: 23
+      },
+
+      {
+        step: 5,
+        description: "Heat oil in a frying pan at medium heat, place the meat rolls in the pan (end of the meat strip down), and start cooking. Cook while turning, until browned all the way around, about 7-8 minutes.",
+        recipeId: 23
+      },
+      {
+        step: 6,
+        description: "Turn down heat to low, and add Soy Sauce mixture. Coat the meat with the sauce well.",
+        recipeId: 23
+      },
+      {
+        step: 7,
+        description: "Cut the rolls in half, and serve.",
+        recipeId: 23
+      },
       // {
       //   step: ,
       //   description: "",
-      //   recipeId: 11
+      //   recipeId: 23
       // },
       // {
       //   step: ,
       //   description: "",
-      //   recipeId: 11
+      //   recipeId: 23
       // },
+      // {
+      //   step: ,
+      //   description: "",
+      //   recipeId: 23
+      // },
+
+
+
+
+
+
 
 
 

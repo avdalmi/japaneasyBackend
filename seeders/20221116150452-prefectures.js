@@ -63,7 +63,13 @@ module.exports = {
         //10
         title: "Gunma 群馬県",
         description: "Gunma Prefecture is literally at the center of Japan, surrounded by mountains and volcanos that create the ideal environment for hot springs, snow sports, and other outdoor adventures. Visit Kusatsu and witness a yumomi performance—a traditional way of cooling down hot spring water—before soaking in a mineral-rich bath. Hit one of Gunma's many ski slopes in winter, ranging from beginner to expert, or have an adventure in the mountains of Minakami, where you can find lakes, rivers, rafting, canyoning, canoeing and hiking.",
-        image: ["https://a2.cdn.japantravel.com/photo/269-223103/1440x960!/gunma-gunma-prefecture-223103.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_nBHVq14zO2UOndwrX3DRFwl1vWyXINu0Wo5TBhWacW_iZ6cM2aCdnR4rcoeW9vggyMU&usqp=CAU", "https://i.imgur.com/sKMkUKc.jpg", "hhttps://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/8acbeec7-ece8-4e66-9ac5-d1a10a4369ba/test1-clientside/editor_images/gunma-takaragawa-onsen-170760.jpg"],
+        image: ["https://a2.cdn.japantravel.com/photo/269-223103/1440x960!/gunma-gunma-prefecture-223103.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_nBHVq14zO2UOndwrX3DRFwl1vWyXINu0Wo5TBhWacW_iZ6cM2aCdnR4rcoeW9vggyMU&usqp=CAU", "https://i.imgur.com/sKMkUKc.jpg", "https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/8acbeec7-ece8-4e66-9ac5-d1a10a4369ba/test1-clientside/editor_images/gunma-takaragawa-onsen-170760.jpg"],
+      },
+      {
+        //10
+        title: "Saita 埼玉県",
+        description: "Just above Tokyo, Saitama Prefecture (埼玉県, Saitama-ken) is more than just a suburb for commuters to the nation’s capital.\n The city of Kawagoe is famous for its traditional kura-zukuri style warehouses, which remain from the 18th and 19th centuries and house many souvenir shops. The Railway Museum is also an intriguing site, while if you need to do some shopping, Aeon Lake Town in Koshigaya, the largest shopping mall in Japan, is your answer. The Tobu Zoo is one of the most popular zoos in the Kanto area and a great place to take children to.\n The northern half of Saitama is abundant with nature, especially the Chichibu region, known for its many mountains and temples. The Nagatoro Valley is renowned for its beautiful scenery and whitewater rafting.",
+        image: ["https://jw-webmagazine.com/wp-content/uploads/2019/07/1_B61mj8ch9vNFy3qRNtylXw.jpeg", "https://www.japantimes.co.jp/wp-content/uploads/2018/07/n-ataglance-a-20180722.jpg", "https://preview.redd.it/4wuj4uumndl01.jpg?auto=webp&s=e9856a324ee35d1cd3ef16e2d5555a618ffb494f", "https://www.silverkris.com/wp-content/uploads/2018/05/Kawagoe-Photo-Picture-Cells-Shutterstock.com-1200x852-1.jpg"],
       }
     ], {});
 

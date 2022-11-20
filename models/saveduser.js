@@ -10,13 +10,15 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      SavedUser.belongsTo(models.user);
-      SavedUser.belongsTo(models.recipe);
+      SavedUser.belongsTo(models.user, {
+        foreignKey: "userId"
+      });
+      SavedUser.belongsTo(models.recipe, {
+        foreignKey: "recipeId"
+      });
     }
   }
   SavedUser.init({
-    userId: DataTypes.INTEGER,
-    savedId: DataTypes.INTEGER,
     isFavorite: DataTypes.BOOLEAN,
     isSaved: DataTypes.BOOLEAN
   }, {

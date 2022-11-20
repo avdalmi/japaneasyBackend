@@ -11,17 +11,21 @@ module.exports = {
       },
       userId: {
         type: Sequelize.INTEGER,
-        reference: {
+        references: {
           key: "id",
-          model: "user"
-        }
+          model: "users"
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE"
       },
       recipeId: {
         type: Sequelize.INTEGER,
         references: {
           key: "id",
           model: "recipes"
-        }
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE"
       },
       isFavorite: {
         type: Sequelize.BOOLEAN,
@@ -33,11 +37,13 @@ module.exports = {
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: new Date()
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: new Date()
       }
     });
   },

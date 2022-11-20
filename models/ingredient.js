@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       ingredient.belongsTo(models.recipe);
-      ingredient.hasMany(models.ingredientDescription);
+      ingredient.belongsTo(models.ingredientDescription);
     }
   }
   ingredient.init({

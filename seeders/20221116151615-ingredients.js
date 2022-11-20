@@ -10,12 +10,14 @@ module.exports = {
         recipeId: 1,
         quantity: 2.5,
         measurement: "kg",
+        ingredientDescriptionId: 1
       },
       {
         name: "Koji",
         recipeId: 1,
         quantity: 400,
         measurement: "g",
+        ingredientDescriptionId: 2
       },
       {
         name: "Carrots",
@@ -63,7 +65,8 @@ module.exports = {
         name: "Mirin",
         recipeId: 1,
         quantity: 200,
-        measurement: "ml"
+        measurement: "ml",
+        ingredientDescriptionId: 4
       },
       {
         name: "Thinly sliced beef skirt",
@@ -87,13 +90,15 @@ module.exports = {
         name: "Soy Sauce",
         recipeId: 2,
         quantity: 3,
-        measurement: "tbsp"
+        measurement: "tbsp",
+        ingredientDescriptionId: 3,
       },
       {
         name: "Sake",
         recipeId: 2,
         quantity: 1,
-        measurement: "tbsp"
+        measurement: "tbsp",
+        ingredientDescriptionId: 5
       },
       {
         name: "Honey",
@@ -154,7 +159,8 @@ module.exports = {
         name: "Red Miso",
         recipeId: 3,
         quantity: 4,
-        measurement: "tbsp"
+        measurement: "tbsp",
+        ingredientDescriptionId: 7
       },
       {
         name: "White sesame seeds",
@@ -172,19 +178,22 @@ module.exports = {
         name: "Soy Sauce",
         recipeId: 3,
         quantity: 1.5,
-        measurement: "tbsp"
+        measurement: "tbsp",
+        ingredientDescriptionId: 3
       },
       {
         name: "Mirin",
         recipeId: 3,
         quantity: 1.5,
-        measurement: "tbsp"
+        measurement: "tbsp",
+        ingredientDescriptionId: 4
       },
       {
         name: "Sake",
         recipeId: 3,
         quantity: 3,
-        measurement: "tbsp"
+        measurement: "tbsp",
+        ingredientDescriptionId: 5
       },
       {
         name: "Butter",
@@ -250,7 +259,8 @@ module.exports = {
         name: "Red miso",
         recipeId: 4,
         quantity: 3,
-        measurement: "tbsp"
+        measurement: "tbsp",
+        ingredientDescriptionId: 7
       },
       {
         name: "Osyter sauce",
@@ -334,7 +344,8 @@ module.exports = {
         name: "Dashi power",
         recipeId: 5,
         quantity: 1,
-        measurement: "tsp"
+        measurement: "tsp",
+        ingredientDescriptionId: 10
       },
       {
         name: "Egg",
@@ -376,19 +387,22 @@ module.exports = {
         name: "Soy sauce",
         recipeId: 6,
         quantity: 80,
-        measurement: "ml"
+        measurement: "ml",
+        ingredientDescriptionId: 3
       },
       {
         name: "Sake",
         recipeId: 6,
         quantity: 80,
-        measurement: "ml"
+        measurement: "ml",
+        ingredientDescriptionId: 5
       },
       {
         name: "Mirin",
         recipeId: 6,
         quantity: 50,
-        measurement: "ml"
+        measurement: "ml",
+        ingredientDescriptionId: 4
       },
       {
         name: "Sugar",
@@ -418,13 +432,15 @@ module.exports = {
         name: "White dashi",
         recipeId: 7,
         quantity: 30,
-        measurement: "ml"
+        measurement: "ml",
+        ingredientDescriptionId: 10
       },
       {
         name: "Mentsuyu",
         recipeId: 7,
         quantity: 50,
-        measurement: "ml"
+        measurement: "ml",
+        ingredientDescriptionId: 9
       },
       {
         name: "Water",
@@ -448,25 +464,29 @@ module.exports = {
         name: "Sake",
         recipeId: 8,
         quantity: 210,
-        measurement: "ml"
+        measurement: "ml",
+        ingredientDescriptionId: 5
       },
       {
         name: "White dashi",
         recipeId: 8,
         quantity: 300,
-        measurement: "ml"
+        measurement: "ml",
+        ingredientDescriptionId: 10
       },
       {
         name: "Soy sauce",
         recipeId: 8,
         quantity: 5,
-        measurement: "tbsp"
+        measurement: "tbsp",
+        ingredientDescriptionId: 3
       },
       {
         name: "Mirin",
         recipeId: 8,
         quantity: 110,
-        measurement: "ml"
+        measurement: "ml",
+        ingredientDescriptionId: 4
       },
       {
         name: "Water",
@@ -484,7 +504,8 @@ module.exports = {
         name: "Daikon",
         recipeId: 9,
         quantity: 300,
-        measurement: "gram"
+        measurement: "gram",
+        ingredientDescriptionId: 1
       },
       {
         name: "Carrot",
@@ -496,7 +517,8 @@ module.exports = {
         name: "Shiitake",
         recipeId: 9,
         quantity: 6,
-        measurement: "pieces"
+        measurement: "pieces",
+        ingredientDescriptionId: 6
       },
       {
         name: "Mountain potato - Japanese Taro",
@@ -526,7 +548,8 @@ module.exports = {
         name: "White dashi",
         recipeId: 9,
         quantity: 2,
-        measurement: "tbsp"
+        measurement: "tbsp",
+        ingredientDescriptionId: 10
       },
       {
         name: "Water",
@@ -538,13 +561,15 @@ module.exports = {
         name: "Dashi powder",
         recipeId: 9,
         quantity: 0.5,
-        measurement: "tsp"
+        measurement: "tsp",
+        ingredientDescriptionId: 10
       },
       {
         name: "Soy sauce",
         recipeId: 9,
         quantity: 3,
-        measurement: "tbsp"
+        measurement: "tbsp",
+        ingredientDescriptionId: 3
       },
       {
         name: "Cod fillet",
@@ -586,7 +611,8 @@ module.exports = {
         name: "Shiitake",
         recipeId: 10,
         quantity: 2,
-        measurement: "piece"
+        measurement: "piece",
+        ingredientDescriptionId: 6
       },
       {
         name: "Shirataki",
@@ -610,13 +636,15 @@ module.exports = {
         name: "Sake",
         recipeId: 10,
         quantity: 100,
-        measurement: "ml"
+        measurement: "ml",
+        ingredientDescriptionId: 5
       },
       {
         name: "Mirin",
         recipeId: 10,
         quantity: 60,
-        measurement: "ml"
+        measurement: "ml",
+        ingredientDescriptionId: 4
       },
       {
         name: "Sugar",
@@ -628,7 +656,8 @@ module.exports = {
         name: "Soy sauce",
         recipeId: 10,
         quantity: 50,
-        measurement: "ml"
+        measurement: "ml",
+        ingredientDescriptionId: 3
       },
       {
         name: "Potato",
@@ -660,20 +689,667 @@ module.exports = {
         quantity: null,
         measurement: "as needed"
       },
+      {
+        name: "Japanese Taro",
+        recipeId: 12,
+        quantity: 200,
+        measurement: "gram"
+      },
+      {
+        name: "Flour",
+        recipeId: 12,
+        quantity: 170,
+        measurement: "gram"
+      },
+      {
+        name: "Egg",
+        recipeId: 12,
+        quantity: 2,
+        measurement: "pieces"
+      },
+      {
+        name: "Carrot",
+        recipeId: 12,
+        quantity: 1,
+        measurement: "piece"
+      },
+      {
+        name: "Fried Tofu (Aburaage)",
+        recipeId: 12,
+        quantity: 2,
+        measurement: "pieces"
+      },
+      {
+        name: "Spring onion",
+        recipeId: 12,
+        quantity: 1,
+        measurement: "stalk"
+      },
+      {
+        name: "Shiitake",
+        recipeId: 12,
+        quantity: 8,
+        measurement: "pieces",
+        ingredientDescriptionId: 6
+      },
+      {
+        name: "Water",
+        recipeId: 12,
+        quantity: 1400,
+        measurement: "ml"
+      },
+      {
+        name: "White dashi",
+        recipeId: 12,
+        quantity: 150,
+        measurement: "ml",
+        ingredientDescriptionId: 10
+      },
+      {
+        name: "Soy sauce",
+        recipeId: 12,
+        quantity: 3,
+        measurement: "tbsp",
+        ingredientDescriptionId: 3
+      },
+      {
+        name: "Daikon",
+        recipeId: 12,
+        quantity: 0.25,
+        measurement: "piece",
+        ingredientDescriptionId: 1
+      },
+      {
+        name: "Shimezi mushroom",
+        recipeId: 13,
+        quantity: 1,
+        measurement: "pack"
+      },
+      {
+        name: "Shiitake",
+        recipeId: 13,
+        quantity: 5,
+        measurement: "pieces",
+        ingredientDescriptionId: 6
+      },
+      {
+        name: "Rice",
+        recipeId: 13,
+        quantity: 360,
+        measurement: "ml"
+      },
+      {
+        name: "Soy Sauce",
+        recipeId: 13,
+        quantity: 2,
+        measurement: "tbsp",
+        ingredientDescriptionId: 3
+      },
+      {
+        name: "Sake",
+        recipeId: 13,
+        quantity: 2,
+        measurement: "tbsp",
+        ingredientDescriptionId: 5
+      },
+      {
+        name: "Mirin",
+        recipeId: 13,
+        quantity: 2,
+        measurement: "tbsp",
+        ingredientDescriptionId: 4
+      },
+      {
+        name: "Spring onion",
+        recipeId: 13,
+        quantity: 1,
+        measurement: "stalk"
+      },
+
+      {
+        name: "Carrots",
+        recipeId: 14,
+        quantity: 2,
+        measurement: "cups"
+      },
+
+      {
+        name: "Sesame oil",
+        recipeId: 14,
+        quantity: 0.5,
+        measurement: "tsp"
+      },
+
+      {
+        name: "Sake",
+        recipeId: 14,
+        quantity: 0.5,
+        measurement: "tbsp",
+        ingredientDescriptionId: 5
+      },
+
+      {
+        name: "Egg - beaten",
+        recipeId: 14,
+        quantity: 1,
+        measurement: "piece"
+      },
+
+      {
+        name: "Kabocha pumpkin",
+        recipeId: 15,
+        quantity: 0.5,
+        measurement: "piece"
+      },
+
+      {
+        name: "Cucumber",
+        recipeId: 15,
+        quantity: 1,
+        measurement: "piece"
+      },
+
+      {
+        name: "Lemon juice",
+        recipeId: 15,
+        quantity: 1,
+        measurement: "tsp"
+      },
+
+      {
+        name: "Japanese mayonnaise",
+        recipeId: 15,
+        quantity: 2,
+        measurement: "tbsp"
+      },
+      {
+        name: "Okra",
+        recipeId: 16,
+        quantity: 5,
+        measurement: "pieces"
+      },
+      {
+        name: "Tomato",
+        recipeId: 16,
+        quantity: 1,
+        measurement: "piece"
+      },
+      {
+        name: "Nagaimo long yam",
+        recipeId: 16,
+        quantity: 1,
+        measurement: "piece"
+      },
+      {
+        name: "Shiso Leaves",
+        recipeId: 16,
+        quantity: 4,
+        measurement: "pieces"
+      },
+      {
+        name: "Dried somen noodles",
+        recipeId: 16,
+        quantity: 3,
+        measurement: "bunches"
+      },
+      {
+        name: "Mentsuyu sauce",
+        recipeId: 16,
+        quantity: 0.5,
+        measurement: "cup",
+        ingredientDescriptionId: 9
+      },
+      {
+        name: "Cold water",
+        recipeId: 16,
+        quantity: 1,
+        measurement: "cup"
+      },
+      {
+        name: "Potato",
+        recipeId: 17,
+        quantity: 1,
+        measurement: ""
+      },
+      {
+        name: "Carrot",
+        recipeId: 17,
+        quantity: 0.5,
+        measurement: "piece"
+      },
+      {
+        name: "Napa cabbage",
+        recipeId: 17,
+        quantity: 3,
+        measurement: "leaves"
+      },
+      {
+        name: "Spring onion",
+        recipeId: 17,
+        quantity: 2,
+        measurement: "stalks"
+      },
+      {
+        name: "Dashi",
+        recipeId: 17,
+        quantity: 4,
+        measurement: "cups",
+        ingredientDescriptionId: 10
+      },
+      {
+        name: "Miso",
+        recipeId: 17,
+        quantity: 5,
+        measurement: "tbsp",
+        ingredientDescriptionId: 7
+      },
+      {
+        name: "Napa cabbage",
+        recipeId: 18,
+        quantity: 0.5,
+        measurement: "piece"
+      },
+      {
+        name: "Chinese chives",
+        recipeId: 18,
+        quantity: 1,
+        measurement: "bunch"
+      },
+      {
+        name: "Shimeji mushroom",
+        recipeId: 18,
+        quantity: 1,
+        measurement: "pack"
+      },
+      {
+        name: "Enoki mushroom",
+        recipeId: 18,
+        quantity: 1,
+        measurement: "pack"
+      },
+      {
+        name: "Tofu medium hard",
+        recipeId: 18,
+        quantity: 1,
+        measurement: "pack"
+      },
+      {
+        name: "sliced pork",
+        recipeId: 18,
+        quantity: 460,
+        measurement: "gram"
+      },
+
+      {
+        name: "Sesame oil",
+        recipeId: 18,
+        quantity: 3,
+        measurement: "tbsp"
+      }, {
+        name: "Dashi",
+        recipeId: 18,
+        quantity: 1500,
+        measurement: "ml",
+        ingredientDescriptionId: 10
+      },
+      {
+        name: "Miso",
+        recipeId: 18,
+        quantity: 0.25,
+        measurement: "cup",
+        ingredientDescriptionId: 7
+      },
+      {
+        name: "Sake",
+        recipeId: 18,
+        quantity: 3,
+        measurement: "tbsp",
+        ingredientDescriptionId: 5
+      },
+      {
+        name: "Chinese cabbage",
+        recipeId: 19,
+        quantity: 200,
+        measurement: "gram"
+      },
+      {
+        name: "Onion",
+        recipeId: 19,
+        quantity: 100,
+        measurement: "gram"
+      },
+      {
+        name: "Chinese chives",
+        recipeId: 19,
+        quantity: 100,
+        measurement: "gram"
+      },
+      {
+        name: "Shiitake",
+        recipeId: 19,
+        quantity: 3,
+        measurement: "pieces",
+        ingredientDescriptionId: 6
+      },
+      {
+        name: "Bamboo shoots - canned",
+        recipeId: 19,
+        quantity: 2,
+        measurement: "tbsp"
+      },
+
+      {
+        name: "Garlic",
+        recipeId: 19,
+        quantity: 1,
+        measurement: "clove"
+      },
+      {
+        name: "Ginger",
+        recipeId: 19,
+        quantity: 1,
+        measurement: "2cm"
+      },
+      {
+        name: "Soy sauce",
+        recipeId: 19,
+        quantity: 1,
+        measurement: "tbsp",
+        ingredientDescriptionId: 3
+      },
+      {
+        name: "Sake",
+        recipeId: 19,
+        quantity: 1,
+        measurement: "tsp",
+        ingredientDescriptionId: 5
+      },
+      {
+        name: "Corn starch",
+        recipeId: 19,
+        quantity: 1,
+        measurement: "tbsp"
+      },
+      {
+        name: "Panko breadcrumbs",
+        recipeId: 19,
+        quantity: 3,
+        measurement: "tbsp"
+      },
+      {
+        name: "Sesame oil",
+        recipeId: 19,
+        quantity: 1,
+        measurement: "tbsp"
+      },
+      {
+        name: "Gyoza skins",
+        recipeId: 19,
+        quantity: 25,
+        measurement: "pieces"
+      },
+      {
+        name: "Frying oil",
+        recipeId: 19,
+        quantity: 1,
+        measurement: "litre"
+      },
+      {
+        name: "Soy sauce",
+        recipeId: 19,
+        quantity: 3,
+        measurement: "tbsp",
+        ingredientDescriptionId: 3
+      },
+      {
+        name: "Rice vingar",
+        recipeId: 19,
+        quantity: 3,
+        measurement: "tbsp"
+      },
+      {
+        name: "Chili oil",
+        recipeId: 19,
+        quantity: 1,
+        measurement: "tsp"
+      },
+      {
+        name: "Cabbage",
+        recipeId: 20,
+        quantity: 10,
+        measurement: "leaves"
+      },
+      {
+        name: "Onion",
+        recipeId: 20,
+        quantity: 0.5,
+        measurement: "piece"
+      },
+      {
+        name: "Minced pork",
+        recipeId: 20,
+        quantity: 220,
+        measurement: "gram"
+      },
+      {
+        name: "Minced beef",
+        recipeId: 20,
+        quantity: 220,
+        measurement: "gram"
+      },
+      {
+        name: "Egg",
+        recipeId: 20,
+        quantity: 1,
+        measurement: "piece"
+      },
+      {
+        name: "Panko breadcrumbs",
+        recipeId: 20,
+        quantity: 0.5,
+        measurement: "cup"
+      },
+      {
+        name: "Chicken broth",
+        recipeId: 20,
+        quantity: 2,
+        measurement: "cup"
+      },
+      {
+        name: "Salt",
+        recipeId: 20,
+        quantity: 0.5,
+        measurement: "tsp"
+      },
+      {
+        name: "Tomato paste",
+        recipeId: 20,
+        quantity: 1,
+        measurement: "tbsp"
+      },
+      {
+        name: "Ketchup",
+        recipeId: 20,
+        quantity: 1,
+        measurement: ""
+      },
+      {
+        name: "Yellowtail fillets",
+        recipeId: 21,
+        quantity: 300,
+        measurement: "gram"
+      },
+      {
+        name: "Daikon radish",
+        recipeId: 21,
+        quantity: 0.5,
+        measurement: "piece",
+        ingredientDescriptionId: 1
+      },
+      {
+        name: "Ginger",
+        recipeId: 21,
+        quantity: 20,
+        measurement: "gram"
+      },
+      {
+        name: "water",
+        recipeId: 21,
+        quantity: 360,
+        measurement: "ml"
+      },
+      {
+        name: "Soy sauce",
+        recipeId: 21,
+        quantity: 80,
+        measurement: "ml",
+        ingredientDescriptionId: 3
+      },
+
+      {
+        name: "Sake",
+        recipeId: 21,
+        quantity: 80,
+        measurement: "ml",
+        ingredientDescriptionId: 5
+      },
+      {
+        name: "Mirin",
+        recipeId: 21,
+        quantity: 60,
+        measurement: "ml",
+        ingredientDescriptionId: 4
+      },
+      {
+        name: "Sugar",
+        recipeId: 21,
+        quantity: 3,
+        measurement: "tbsp"
+      },
+      {
+        name: "Tomato",
+        recipeId: 22,
+        quantity: 2,
+        measurement: "pieces"
+      },
+      {
+        name: "Daikon",
+        recipeId: 22,
+        quantity: 300,
+        measurement: "gram",
+        ingredientDescriptionId: 1
+      },
+      {
+        name: "Green onions",
+        recipeId: 22,
+        quantity: 4,
+        measurement: "stalks"
+      },
+      {
+        name: "Sliced pork",
+        recipeId: 22,
+        quantity: 225,
+        measurement: "gram"
+      },
+      {
+        name: "Rice vinegar",
+        recipeId: 22,
+        quantity: 2,
+        measurement: "tbsp"
+      },
+      {
+        name: "Soy sauce",
+        recipeId: 22,
+        quantity: 2,
+        measurement: "tbsp",
+        ingredientDescriptionId: 3
+      },
+      {
+        name: "Sesame oil",
+        recipeId: 22,
+        quantity: 2,
+        measurement: "tbsp"
+      },
+      {
+        name: "Carrot",
+        recipeId: 23,
+        quantity: 1,
+        measurement: "piece"
+      },
+      {
+        name: "Green beans",
+        recipeId: 23,
+        quantity: 15,
+        measurement: "pieces"
+      },
+      {
+        name: "Soy sauce",
+        recipeId: 23,
+        quantity: 2,
+        measurement: "tbsp",
+        ingredientDescriptionId: 3
+      },
+      {
+        name: "Sugar",
+        recipeId: 23,
+        quantity: 1,
+        measurement: "tbsp"
+      },
+      {
+        name: "Sake",
+        recipeId: 23,
+        quantity: 1,
+        measurement: "tbsp",
+        ingredientDescriptionId: 5
+      },
+      {
+        name: "Water",
+        recipeId: 23,
+        quantity: 2,
+        measurement: "tbsp"
+      },
+      {
+        name: "Sliced beef",
+        recipeId: 23,
+        quantity: 200,
+        measurement: "gram"
+      },
+      {
+        name: "Oil",
+        recipeId: 23,
+        quantity: 1,
+        measurement: "tbsp"
+      },
       // {
       //   name: "",
-      //   recipeId: 11
-      //   ,
+      //   recipeId: 23,
       //   quantity: ,
       //   measurement: ""
       // },
       // {
       //   name: "",
-      //   recipeId: 11
-      //   ,
+      //   recipeId: 23,
       //   quantity: ,
       //   measurement: ""
       // },
+      // {
+      //   name: "",
+      //   recipeId: 23,
+      //   quantity: ,
+      //   measurement: ""
+      // },
+      // {
+      //   name: "",
+      //   recipeId: 23,
+      //   quantity: ,
+      //   measurement: ""
+      // },
+
+
+
+
+
+
 
 
 

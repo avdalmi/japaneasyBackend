@@ -25,6 +25,13 @@ module.exports = {
           model: "recipes"
         }
       },
+      ingredientDescriptionId: {
+        type: Sequelize.INTEGER,
+        references: {
+          key: "id",
+          model: "ingredientDescriptions"
+        }
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
