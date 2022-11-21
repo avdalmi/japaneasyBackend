@@ -70,7 +70,230 @@ module.exports = {
         title: "Saita 埼玉県",
         description: "Just above Tokyo, Saitama Prefecture (埼玉県, Saitama-ken) is more than just a suburb for commuters to the nation’s capital.\n The city of Kawagoe is famous for its traditional kura-zukuri style warehouses, which remain from the 18th and 19th centuries and house many souvenir shops. The Railway Museum is also an intriguing site, while if you need to do some shopping, Aeon Lake Town in Koshigaya, the largest shopping mall in Japan, is your answer. The Tobu Zoo is one of the most popular zoos in the Kanto area and a great place to take children to.\n The northern half of Saitama is abundant with nature, especially the Chichibu region, known for its many mountains and temples. The Nagatoro Valley is renowned for its beautiful scenery and whitewater rafting.",
         image: ["https://jw-webmagazine.com/wp-content/uploads/2019/07/1_B61mj8ch9vNFy3qRNtylXw.jpeg", "https://www.japantimes.co.jp/wp-content/uploads/2018/07/n-ataglance-a-20180722.jpg", "https://preview.redd.it/4wuj4uumndl01.jpg?auto=webp&s=e9856a324ee35d1cd3ef16e2d5555a618ffb494f", "https://www.silverkris.com/wp-content/uploads/2018/05/Kawagoe-Photo-Picture-Cells-Shutterstock.com-1200x852-1.jpg"],
-      }
+      },
+      {
+        //11
+        title: "Saitama 埼玉県",
+        description: " Saitama borders Tokyo but offers its own array of outdoor adventures and living Edo history. A major transportation hub and a stop on the way to Nikko during the Edo period, Saitama is now an urban commuter area. The Edo atmosphere remains, however, in historic towns such as Kawagoe. Close enough to Tokyo to offer a quick getaway to the beauty of nature, mountainous areas like Chichibu offer easy hiking and seasonal flowers, while the semi-rural Sayama Hills area is dotted with emerald-green tea fields. ",
+        image: ["https://jw-webmagazine.com/wp-content/uploads/2019/07/1_B61mj8ch9vNFy3qRNtylXw.jpeg ", " https://jw-webmagazine.com/wp-content/uploads/2019/07/1_5jpkDoAstHW1xU7m9p8fGw.jpeg", "https://jw-webmagazine.com/wp-content/uploads/2019/07/1_scraE7CEINim1Xib727Opw.jpeg ", "https://jw-webmagazine.com/wp-content/uploads/2019/07/1_GQEzyZs3K1MwKLYqtOMMWA.jpeg "],
+      },
+      {
+        //12
+        title: "Chiba 千葉県",
+        description: "Chiba Prefecture is located east of Tokyo. Many foreign travelers visit Chiba Prefecture, because Narita Airport, one of Japan's busiest international airports, is located there. The prefectural capital is Chiba City. A large part of the prefecture is made up of the rural Boso Peninsula which is a popular resort destinations for Tokyoites. ",
+        image: ["https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2020/12/chiba-city-1.jpg ", "https://top.his-usa.com/destination-japan/up_img/top/fs_1506980010_0.jpg ", " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcmfqmzyR57fLZrgi6u3yGtOnMDEVCtC_qxh8664RjWjM55mVVu767xPzM09ghitT5O2o&usqp=CAU", "http://d20aeo683mqd6t.cloudfront.net/articles/title_images/000/038/883/medium/naritasan-chiba-s1324767698.jpg?2022 "],
+      },
+      {
+        //13
+        title: "Tokyo 東京都",
+        description: "Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods. The Imperial Palace sits amid large public gardens. The city's many museums offer exhibits ranging from classical art (in the Tokyo National Museum) to a reconstructed kabuki theater (in the Edo-Tokyo Museum). ",
+        image: ["https://media.istockphoto.com/id/1390815938/photo/tokyo-city-in-japan.jpg?b=1&s=170667a&w=0&k=20&c=YVI8iGWf-w_cLyQNcWA57Ll9eXv_s_SHfoM0MufEMMQ= ", "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dG9reW98ZW58MHx8MHx8&w=1000&q=80 ", "https://assets.vogue.com/photos/5e387ae1be72df00088bf8c8/master/w_2560%2Cc_limit/EEX74X.jpg ", "https://media.timeout.com/images/105624406/750/422/image.jpg "],
+      },
+      {
+        //14
+        title: "Kanagawa 神奈川県",
+        description: "Kanagawa Prefecture is a part of the Kanto region of Japan. Kanagawa is characterized by the mountains, rivers, and sea that are within it, as well as for being close to Japan's most popular city, Tokyo. One of it's most well-known cities, Yokohama, is the main site for Kanagawa's business and economy relations, and it is also the capital city. Kanagawa also has two very popular destinations in Japan, Hakone and Kamakura that has served as the primary tourist destinations for Kanagawa. ",
+        image: ["https://wattention.com/wp-content/uploads/2019/07/Nakamise-Kawasaki-daishi.jpg ", " https://peakvisor.com/img/news/Mount-Fuji-from-Tanzawa-Lake-Kanagawa-Japan.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJSYAGbKR-tl0doRqpa1h-Q1x53IEoaOHnag&usqp=CAU ", " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj4-U0tghM3x8yflId3tftl1e0P9hjoYtqDQ&usqp=CAU"],
+      },
+      {
+        //15
+        title: "Niigata 新潟県",
+        description: "Niigata is a port city on Honshu, Japan’s main island. The Minatopia history museum complex includes heritage buildings like the 19th-century Niigata Customs House. Along the seacoast, the Marinepia Nihonkai aquarium has sea otters and dolphins. Part of the Northern Culture Museum, the Ito Estate was home to a wealthy 1800s family and displays their art collection. South are the hot springs of Iwamuro. ",
+        image: ["https://a0.cdn.japantravel.com/photo/273-216152/1200x630!/niigata-niigata-prefecture-216152.jpg ", "https://wattention.com/wp-content/uploads/2019/07/128-Niigata-Prefectural-Tourist-Association.jpg ", "https://www.melbtravel.com/wp-content/uploads/2019/11/Cover-Hiking-Niigata-Japan-1024x696.jpeg ", " https://static.trip101.com/paragraph_media/pictures/002/216/990/large/Bandai_Bridge__Niigata__Japan_001.JPG?1599819387"],
+      },
+      {
+        //16
+        title: "Toyama 富山県",
+        description: "Toyama is a prefecture on Japan’s main island, Honshu. Its Hida Mountains are known for hot springs and ski areas. The capital, also called Toyama, is the starting point of the 90km-long Tateyama Kurobe Alpine Route. On this popular sightseeing course, visitors travel by bus, funicular and ropeway to sites like Mt. Tate (one of Japan’s 3 Holy Mountains), Mikurigaike crater lake and 186m-tall Kurobe Dam. ",
+        image: [" https://www.ana-cooljapan.com/destinations/img/toyama/sp_top01.jpg", "https://www.japan-guide.com/thumb/XYZlistXYZe1219_1680.jpg ", " https://a1.cdn.japantravel.com/photo/274-137970/1440x960!/toyama-toyama-prefecture-137970.jpg", "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/499000/499426-ainokura.jpg "],
+      },
+      {
+        //17
+        title: "Nagano 長野県",
+        description: "Nagano is a mountainous, landlocked prefecture in the center of Honshu, belonging to the Chubu Region. Nagano was the site of the Olympic Winter Games 1998. Prefectural capital is Nagano City. ",
+        image: ["https://theportablewife.com/wp-content/uploads/what-to-do-in-nagano-itinerary-featured.jpg ", "https://www.travellens.co/content/images/2021/09/Nagano.jpg ", " https://cotoacademy.com/app/uploads/2017/11/DSC_2504yokoteyama-s.jpg", "https://www.kayak.com/rimg/dimg/bf/b2/ee78d8dc-city-43962-1730e34e26d.jpg?width=400&height=300&xhint=3011&yhint=2850&crop=true "],
+      },
+      {
+        //18
+        title: "Yamanashi 山梨県",
+        description: "Yamanashi is a Japanese prefecture to the southwest of Tokyo on the island of Honshu.It encompasses the northern part of Mount Fuji, where hundreds of thousands of visitors climb to the summit every year.In the Fuji Five Lakes area, resort towns surround the lakes created by the iconic mountain’s eruption.The region is renowned for hiking, climbing, fishing and skiing.  ",
+        image: [" https://cdn.cheapoguides.com/wp-content/uploads/sites/3/2020/05/shibazaukra-yamanashi-fuji-iStock-536653714-1024x600.jpg", "https://a3.cdn.japantravel.com/photo/15623-163362/1440x960!/yamanashi-yamanashi-prefecture-163362.jpg ", "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/1-night-view-of-mount-fuji-from-lake-yamanaka-yamanashi-prefecture-japan-cavan-images.jpg ", "https://cdn.mainichi.jp/vol1/2022/09/14/20220914p2a00m0li020000p/8.jpg?1 "],
+      },
+      {
+        //19
+        title: "Shizuoka 静岡県静岡県",
+        description: "Sometimes referred to as Japan's riviera, Shizuoka Prefecture is located along the Pacific coast in the south of the Chubu Region. Mount Fuji and the Izu Peninsula are part of Shizuoka Prefecture. Tea is the prefecture's most famous product.The prefectural capital is Shizuoka City. ",
+        image: [" https://res-4.cloudinary.com/jnto/image/upload/w_1000,h_667,c_fill,f_auto,fl_lossy,q_auto/v1650006824/shizuoka/H_00026_001", "https://a3.cdn.japantravel.com/photo/16407-224494/1200x630!/shizuoka-shizuoka-prefecture-224494.jpg ", "https://static.gltjp.com/glt/prd/data/article/12000/11118/20210621_084704_6cf57311_w1920.jpg ", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrIXwZiuptOvH5gxqBw8kuZ0fwS7SDe_TTlw&usqp=CAU "],
+      },
+      {
+        //20
+        title: "Gifu 岐阜県",
+        description: "Gifu is a prefecture in central Honshu, Japan’s main island.It’s home to traditional mountain villages, including Gujo Hachiman and the skiing destination Takayama.The city of Gifu, the prefecture’s capital, is famed for cormorant fishing to catch trout, while the Nagara River Ukai Museum in town demystifies this ancient sport.Above town, the reconstructed Gifu Castle topping Mount Kika offers far- reaching views.",
+        image: ["https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2016/01/Gifu-Prefecture.jpg ", "https://cdn.cheapoguides.com/wp-content/uploads/sites/3/2020/05/shirakawago-village-gifu-iStock-645312944-1024x600.jpg ", " https://japandeluxetours.com/uploads/2015/08/20150811173721_55ca873138836.jpg", "https://img.cooljapan-videos.com/files/articles/jubp6sxq/thumbnail/6a001c0ed4f513765d1916e8a6b731f0.jpg.webp"],
+      },
+      {
+        //21
+        title: "Ishikawa 石川県",
+        description: "Ishikawa Prefecture is located on the coast of the Sea of Japan in the Chubu Region.Ishikawa's capital and largest tourist attraction is Kanazawa, best known for Kenrokuen Garden. ",
+        image: ["https://www.japan-guide.com/thumb/XYZlistXYZe1222_1680.jpg ", "http://www.jlgc.org.uk/en/wp-content/uploads/2014/07/%E5%85%BC%E5%85%AD%E5%9C%92%E7%A7%8B%EF%BC%89.jpg ", "https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2016/03/Hatago-Iwa-Rock-Ishikawa-Noto-Hanto.jpg ", " https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2016/03/Ishikawa-Kanazawa-Geisha-1024x683.jpg"],
+      },
+      {
+        //22
+        title: "Fukui 福井県",
+        description: "Fukui prefecture is located near the center of the Japan Sea Coast, with Tsuruga City’s eastern section dividing the northern Reihoku area(formerly called Echizen) from the southern Reinan area(formerly called Wakasa).Fukui prefecture has four distinct seasons with winter’s north - westerly winds bringing heavy precipitation, making her a very moist place blessed with abundant water resources.Additionally, with her entire coastline being designated a quasi - national park our Fukui is truly one prefecture but many lands, a place of myriad natural wonders. ",
+        image: ["https://www.japan-experience.com/sites/default/files/images/content_images/fukui-guide-3.jpg ", "https://peakvisor.com/photo/Echizen-Katsuyama-Castle-Fukui-prefecture.jpg ", " https://farm1.staticflickr.com/732/22466677794_1bffc8d9c7_b.jpg", "https://www.japan-experience.com/sites/default/files/images/content_images/fukui-prefecture-1.jpg "],
+      },
+      {
+        //23
+        title: "Aichi 愛知県",
+        description: "Aichi Prefecture is located in the Chubu Region.The prefectural capital of Nagoya is the region's largest and Japan's fourth largest city.The prefecture is home to the Toyota Motor Corporation and as such is a major center of Japan's automotive industry.",
+        image: [" https://www.japan-guide.com/thumb/XYZlistXYZe1221_1680.jpg", "https://cdn.britannica.com/08/127508-050-D111D35F/Nagoya-Castle-prefecture-Aichi-Japan-Honshu.jpg ", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-jKWxArwDIZ62vz3vNZdqVUnqtfJ5-SVTfg&usqp=CAU ", " https://media.istockphoto.com/id/166327799/photo/downtown-nagoya.jpg?s=612x612&w=0&k=20&c=5BOynAaD4TDFwtVDSDdt3vqZEYtM9RyCjCk1X4txzNc="]
+      },
+      {
+        //24
+        title: "Shiga 滋賀県",
+        description: "Part of the Kansai Region, Shiga Prefecture is located east of Kyoto.Prefectural capital is Otsu.Shiga Prefecture fully encloses Lake Biwa, Japan's largest lake. Another attraction is Hikone with its feudal castle. ",
+        image: ["https://www.japan-guide.com/thumb/XYZlistXYZe1224_1680.jpg ", "https://upload.wikimedia.org/wikipedia/commons/f/f8/Mangetsuji_Otsu_Shiga02n4500.jpg ", "https://media.tacdn.com/media/attractions-splice-spp-674x446/09/4c/77/77.jpg ", "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/20/00/a2000165/img/en/a2000165_parts_5d1c6a6eccd76.jpg?20210216090103&q=80&rw=686&rh=490"],
+      },
+      {
+        //25
+        title: "Mie 三重県",
+        description: "Mie Prefecture belongs to both the Kansai Region and the Tokai Region.The prefecture is home to the Ise Shrines, Japan's most sacred Shinto shrines. Prefectural capital is Tsu City. ",
+        image: ["https://rimage.gnst.jp/livejapan.com/public/article/detail/a/20/00/a2000170/img/en/a2000170_main.jpg?20210222091646&q=80&rw=750&rh=536 ", "https://assets.vogue.com/photos/5a20278a78f73201b56299c7/master/pass/00-promo-image-nachi-taisha-shrine-japan.jpg ", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmAQtegm_GX3BtO32AAEVv7Z7v2OJlKlSnOX6572FPTN8wjpR361nHu4AgtlvwvK7xC_0&usqp=CAU ", "https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2021/03/mie-Maruyama-senmaida-scaled.jpg "],
+      },
+      {
+        //26
+        title: "Kyoto 京都駅",
+        description: "Kyoto Prefecture is part of the Kansai Region, extending to the Sea of Japan coast in the north.The prefectural capital is Kyoto City, which used to serve as the national capital for more than one thousand years, and today offers more historical and traditional attractions than any other Japanese city.A famous attraction of northern Kyoto is Amanohashidate, offering one of Japan's three most scenic views. ",
+        image: [" https://a3.cdn.japantravel.com/photo/68104-226822/1440x960!/kyoto-kyoto-color-guide-226822.jpg", "https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2021/02/Kyoto-Japan-old-town-streets-in-the-Higashiyama-district@3x-1024x683.jpg ", "https://www.outthere.travel/wp-content/uploads/2016/09/Kyoto-Japan_Feat.jpg ", "https://www.nomadasaurus.com/wp-content/uploads/2020/01/Things-to-do-in-Kyoto-Japan.jpg "],
+      },
+      {
+        //27
+        title: "Nara 奈良県",
+        description: "Nara, a landlocked prefecture in the Kansai Region, is the cradle of the Japanese civilization.Many of the early emperors built their palaces in Nara Prefecture, formerly known as Yamato.In 710, Nara was selected as the location of Japan's first permanent capital, Heijo (today's Nara City).Previously, the capital was moved with the ascension of each new emperor. ",
+        image: ["https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2016/04/iStock-499127037.jpg ", "https://peakvisor.com/photo/Japan-Nara-Prefecture.jpg ", "https://i.pinimg.com/736x/01/bc/47/01bc47fc6c3508a177983464c6b8e734.jpg ", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_6Isy_-lFKHMEEYONdA5w50-7RanKMlrOKyBeLi9v-NzKNF5WBMtZHuVcGKiLwLdOka4&usqp=CAU "],
+      },
+      {
+        //28
+        title: "Osaka　大坂符",
+        description: "Osaka Prefecture  is Japan's second smallest prefecture after Kagawa. Prefectural capital is Osaka City, the largest city in the Kansai Region. Osaka Prefecture is the site of Kansai Airport, Japan's second largest international airport. ",
+        image: ["https://photos.smugmug.com/Osaka/Osaka-Categories/i-J9MFjBv/0/XL/Osaka_Districts-XL.jpg ", " https://static.nationalgeographic.co.uk/files/styles/image_3200/public/ngtp_web_citylife_osaka_dontonbori_17_hr.jpg?w=1600&h=900", " https://content.r9cdn.net/rimg/dimg/45/5f/5788029f-city-25901-16e9488a141.jpg?crop=true&width=1020&height=498", "https://www.nippon.com/en/ncommon/contents/japan-topics/135426/135426.jpeg "],
+      },
+      {
+        //29
+        title: "Wakayama 和歌山県",
+        description: " Wakayama offers the natural and spiritual sides of Japan with the ancient temple complex of Koyasan, the Kumano Kodo pilgrimage route, and a picturesque coastline.Wakayama is home to some of Japan's most sacred sites and beautiful beaches, attracting enlightenment-seeking pilgrims and beach-bound sun worshippers in equal measure. From the World Heritage listed Kumano Kodo Pilgrimage Route and the temple complex of Koyasan to the sparkling white sands of Shirarahama Beach. Wakayama City is home to an impressive castle and a delicious local ramen with its own style.",
+        image: ["https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2020/03/Wakayama-Yunomine-Onsen-2-1024x683.jpg ", "https://ychef.files.bbci.co.uk/960_540/p06xgwld.jpg ", "https://www.bbc.com/storyworks/travel/specials/wakayama-prefecture/includes/images/home/gallery/9.jpg ", "https://live.staticflickr.com/4190/33682412563_d7d386a889_b.jpg "],
+      },
+      {
+        //30
+        title: "Hyogo 兵庫県",
+        description: "Hyogo Prefecture is located in the Kansai Region, stretching from the Seto Inland Sea to the Sea of Japan.Its largest city and prefectural capital is Kobe, its most famous tourist attraction is Himeji Castle, and its best known hot spring resorts are Arima and Kinosaki. ",
+        image: ["https://jref.com/attachments/toyooka03-jpg.27694/ ", "https://media.tacdn.com/media/attractions-content--1x-1/0b/39/9f/ad.jpg ", "https://a.cdn-hotels.com/gdcs/production191/d704/71fa7d4d-58dd-4f61-8470-7beaee16da38.jpg?impolicy=fcrop&w=800&h=533&q=medium ", "https://peakvisor.com/photo/Akashi-Castle-Park-Hyogo-Japan.jpg "],
+      },
+      {
+        //31
+        title: "Tottori 鳥取県",
+        description: "Tottori Prefectureis located along the Sea of Japan coast in the Chugoku Region.The prefectual capital is Tottori City.Tottori's best known tourist attraction is its sand dunes (Tottori Sakyu). ",
+        image: [" https://upload.wikimedia.org/wikipedia/commons/e/e1/Tottori-Sakyu_Tottori_Japan.JPG", "https://www.japan-guide.com/community/img/816663_3185.jpg ", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/de/95/06/in-tottori-prefecture.jpg?w=600&h=400&s=1 ", "https://st4.depositphotos.com/1035350/25334/i/600/depositphotos_253348312-stock-photo-tottori-japan-sand-dunes-on.jpg "],
+      },
+
+      {
+        //32
+        title: "Okayama 岡山県",
+        description: "Okayama Prefecture is located along the Seto Inland Sea in the Chugoku Region.The prefectural capital is Okayama City.Just 15 minutes west of Okayama City, Kurashiki attracts tourists with its nicely preserved old canal area. ",
+        image: ["https://a.travel-assets.com/findyours-php/viewfinder/images/res70/458000/458350-Okayama-And-Vicinity.jpg ", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfMijbJCdbaUKB2R-khRumsV7RxwLKBPHRVA&usqp=CAU ", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReV4GQ7miSWdPI1sTP4ea9i5zJKnso9UtBVhlmXfjaYB6WTUk2otEnBsfA1pa0278n-bk&usqp=CAU ", "https://media.istockphoto.com/id/1310894246/photo/on-a-spring-morning-the-quiet-kurashiki-bikan-historical-quarter.jpg?s=612x612&w=0&k=20&c=B2EXOzvmK39ErbR1XqJgbpen10lN78fHgFgAY-PQZeE= "],
+      },
+      {
+        //33
+        title: "Shimane 島根県",
+        description: "Shimane Prefecture is located along the Sea of Japan coast in the Chugoku Region.The prefectural capital is Matsue.Touristic highlights include Matsue and its castle; Izumo Taisha, Japan's oldest shrine; Iwami Ginzan, a historic silver mine; and the Adachi Art Museum with its wonderful garden. ",
+        image: ["https://www.japan-guide.com/thumb/XYZlistXYZe1237_1680.jpg ", "https://a2.cdn.japantravel.com/photo/55031-192132/1440x960!/shimane-top-10-192132.jpg ", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwG5fiCH8uILpX6P8hrL-hB5q7LRHhfa68hw&usqp=CAU ", "https://mediaim.expedia.com/destination/1/7aae86b7b0e0cc0043991ae57399541f.jpg?impolicy=fcrop&w=400&h=225&q=mediumLow "],
+      },
+      {
+        //34
+        title: "Hiroshima 広島県",
+        description: "Hiroshima Prefecture is located along the Seto Inland Sea in the Chugoku Region.The prefectural capital is Hiroshima City, the region's largest city. Miyajima with its famous floating torii gate is one of the prefecture's major tourist attractions. ",
+        image: ["https://www.japan-guide.com/thumb/XYZlistXYZe1238_1680.jpg ", "https://media.tacdn.com/media/attractions-content--1x-1/0b/39/82/79.jpg ", "https://media.istockphoto.com/id/847645034/ja/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AF%E3%83%95%E3%82%A9%E3%83%88/%E5%AE%AE%E5%B3%B6%E3%81%A7%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E9%B9%BF.jpg?s=612x612&w=0&k=20&c=Gc48A23qWV_juaA2L7Ma7VU_NIQS96zVhFGySE3tBjU= ", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuWtvAflnpdv7gftRi0DlZZxJOW9w_ApP0Vg&usqp=CAU "],
+      },
+      {
+        //35
+        title: "Yamaguchi 山口県",
+        description: "Yamaguchi Prefecture is the westernmost prefecture on Honshu Island and is part of the Chugoku Region.The prefectural capital is Yamaguchi City.Yamaguchi, then known as Choshu, played a leading role in overthrowing the shogunate and bringing Japan's feudal era to an end. ",
+        image: ["https://a0.cdn.japantravel.com/photo/40744-178648/840x560!/highlights-of-yamaguchi-178648.jpg ", "https://upload.wikimedia.org/wikipedia/commons/2/29/%E5%B2%A9%E5%9B%BD%E5%9F%8E%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%8C%A6%E5%B8%AF%E6%A9%8B.jpg ", " https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2020/03/Kintaikyo-Bridge--1024x683.jpeg", "https://cdn.omni-links.com/eurex/2e212246-e2ef-42ff-9165-dcd87fbe81cd.jpg "],
+      },
+      {
+        //36
+        title: "Kanagawa 香川県",
+        description: "Kanagawa Prefecture is located just south of Tokyo.Its prefectural capital is Yokohama.Kanagawa Prefecture is home to Kamakura and Hakone, two highly popular side trip destinations from Tokyo. ",
+        image: ["https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2020/12/Yokohama-Osanbashi-Minatomirai.jpg ", "https://live.staticflickr.com/65535/34863318976_3d66774978_b.jpg ", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQisaG0KbBc5M76pOcGSaptPnrlbkSAMv7nog&usqp=CAU ", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdlJn2Dagpt9KTuTQ9I1ASvekfGzLnzfNFkg&usqp=CAU "],
+      },
+      {
+        //37
+        title: "Tokushima 徳島県",
+        description: "Tokushima Prefecture is located on the island of Shikoku.The prefectural capital is Tokushima City.The prefecture is best known for the Awa Odori, a dance festival held in August, the whirlpools of Naruto and the remote Iya Valley. ",
+        image: ["https://www.japan-guide.com/thumb/XYZlistXYZe1234_1680.jpg ", "https://www.vacationstravel.com/wp-content/uploads/2018/01/105_tokushima_Clouds-settle-on-Oboke-River.jpg ", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtTs4_bArjX_X9PsCjdGQ6mZZStashC-bWNQ&usqp=CAU ", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-G0Qve1Fa1vHnwPVb52Z-mCyYbsEyrRzHmg&usqp=CAU "],
+      },
+      {
+        //38
+        title: "Kochi 高知県",
+        description: "Kochi Prefecture is located on the island of Shikoku.The prefectural capital is Kochi City.The prefecture's former name is Tosa. Tosa and its local hero Sakamoto Ryoma played an important historical role towards the end of the Edo Period. ",
+        image: ["https://hiddengem-kochi.com/img/top_lead.jpg ", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNhVLHphG3YLoU19j9ORU7oBBU8v6gt-WlHg&usqp=CAU ", "https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/4/2016/10/Glory-Hallelujah-views-.jpg ", "https://cdn.cheapoguides.com/wp-content/uploads/sites/3/2018/02/32807850714_52de3a4b58_o-1.jpg "],
+      },
+      {
+        //39
+        title: "Ehime 愛媛県",
+        description: "Ehime Prefecture is located on the island of Shikoku.The prefectural capital is Matsuyama, which is best known for its castle and Dogo Onsen, one of Japan's oldest hot springs. ",
+        image: ["https://www.japan-guide.com/thumb/XYZlistXYZe1235_1680.jpg ", "https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2016/01/Ehime-Prefecture.jpg ", "https://content.fun-japan.jp/renewal-prod/cms/articles/content/matsuyama01Rjpg_2019-08-13%2016:22:26.jpg ", "https://dormy-inn-matsuyama-ehime.booked.net/data/Photos/Big/5401/540144/540144609/Dormy-Inn-Matsuyama-Natural-Hot-Spring-Exterior.JPEG "],
+      },
+      {
+        //40
+        title: "Fukuoka 福岡県",
+        description: "Fukuoka Prefecture is located on the island of Kyushu.The prefectural capital is Fukuoka City, Kyushu's largest city. One of Fukuoka's most famous tourist attractions is Dazaifu Tenmangu in Dazaifu. ",
+        image: ["https://www.jetstar.com/_/media/inspiration-hub/article-images/19dec/japan-fukuoka-need-to-know-facts/image_3_japan_fukuoka_wisteria.jpg?rev=8c9a7624357446d6bd122439199d297d&w=690&rc=1&cw=690&ch=424&cx=18&cy=0&hash=DE9C27EC17D6B3E645F3FD628628483A02124AA8 ", "https://japancrops.com/upload/img/prefectures/40/f99d6a3f5ace8f022a306c62c0f6ad01.jpg ", "https://cdn.wakuwaku.today/uploads/store/IMG_0931-b65be9679d17da7b906b5dc380eeedfa.jpg ", "https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2016/02/Fukuoka-Wisteria-Umbrella-1024x682.jpg "],
+      },
+      {
+        //41
+        title: "Oita 大分県",
+        description: "Oita Prefectureis located on the eastern coast of Kyushu.The prefectural capital is Oita City.Just north of Oita City is Beppu, one of Japan's most famous hot spring resorts.",
+        image: ["https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2016/01/Oita.jpg ", "https://s3.voyapon.com/wp-content/uploads/2020/12/21163418/20201119-DSC_9106.jpg ", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzSKGX_nonanNsW-ETnF0RMGUSn0vTkQaXeA&usqp=CAU ", "https://lp-cms-production.imgix.net/features/2018/08/twopillars-d27573e18ec7.jpg?auto=format&q=40&w=870 "],
+      },
+      {
+        //42
+        title: "Kumamoto 熊本県",
+        description: "Kumamoto Prefecture is located along the west coast of Kyushu.Its prefectural capital is Kumamoto City.Kumamoto is known for Mount Aso and hot spring resorts such as Kurokawa Onsen. ",
+        image: ["https://www.japan-guide.com/thumb/XYZlistXYZe1244_1680.jpg ", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/48/5a/06/aso-is-know-cycling-activity.jpg?w=700&h=-1&s=1 ", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoBCxiZH1o7OSVd3wFpQ4qvmvvVZf7odZpZw&usqp=CAU ", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/2a/a1/80/caption.jpg?w=700&h=-1&s=1 "],
+      },
+      {
+        //43
+        title: "Miyagi 宮城県",
+        description: "Miyagi is located on the Pacific coast in the southern Tohoku Region.Miyagi's capital Sendai is the region's largest city.Just outside of Sendai is Matsushima, a coastal town well known to offer one of Japan's three most scenic views. The prefecture was the worst hit by the March 2011 tsunami. ",
+        image: ["https://top.his-usa.com/destination-japan/up_img/top/fs_1547148641_0.jpg", "https://a3.cdn.japantravel.com/photo/1166-177171/1440x960!/miyagi-sendai-177171.jpg ", "https://www.jlgc.org.uk/en/images/enewsletter-photos/sendaishi.jpg ", "https://japancrops.com/upload/img/prefectures/4/33d91c023219447ce7f765aee1e69f06.jpg "],
+      },
+      {
+        //44
+        title: "Kagoshima 鹿児島県",
+        description: "Kagoshima Prefecture consists of the southernmost part of Kyushu and the northern half of the Nansei Shoto, the island group that stretches from Kyushu to Taiwan.The prefecture's former name is Satsuma. Satsuma played a crucial role in realizing the Meiji Restoration and during the Meiji Period. ",
+        image: ["https://www.japan-guide.com/thumb/XYZlistXYZe1246_1680.jpg ", "https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2016/03/Kagoshima-Pref-2.jpg ", " https://media.tacdn.com/media/attractions-content--1x-1/0b/39/b5/5f.jpg", "https://www.goworldtravel.com/wp-content/uploads/2021/03/Kagoshima-Japan-KPVB.jpg "],
+      },
+      {
+        //45
+        title: "Saga 佐賀県",
+        description: "Saga Prefecture is a small prefecture on the island of Kyushu.The prefectural capital is Saga City.The prefecture's best known tourist attraction is its pottery, especially the pottery from the town of Arita. ",
+        image: ["https://www.japan-guide.com/thumb/XYZlistXYZe1241_1680.jpg ", "https://a0.cdn.japantravel.com/photo/291-165883/1440x960!/saga-saga-prefecture-165883.jpg ", "https://previews.123rf.com/images/bee32/bee321808/bee32180800577/106039402-saga-japan-july-19-2018-yutoku-inari-shrine-in-kashima-city-saga-prefecture-japan-.jpg ", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaO6ZtUQDoVlvLR_yMFDEdCPik9E2cqoTXtg&usqp=CAU "],
+      },
+      {
+        //46
+        title: "Nagasaki 長崎県",
+        description: "Nagasaki Prefecture consists of the northwestern tip of Kyushu and hundreds of smaller islands.The prefectural capital is Nagasaki City.Another popular tourist destination is the Shimabara Peninsula with Mount Unzen at its center. ",
+        image: ["https://www.japan-guide.com/thumb/XYZlistXYZe1240_1680b.jpg ", "https://upload.wikimedia.org/wikipedia/commons/a/a4/Albuquerque_Bridge-Sasebo_River%2C_Sasebo.jpg ", "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/458000/458108-Nagasaki-Prefecture.jpg ", "https://media.tacdn.com/media/attractions-content--1x-1/0b/39/a1/38.jpg "],
+      },
+      {
+        //47
+        title: "Okinawa 沖縄県",
+        description: "Okinawa is Japan's southernmost prefecture, consisting of a few dozen, small islands in the southern half of the Nansei Shoto, the island chain which stretches over about one thousand kilometers from Kyushu to Taiwan. ",
+        image: ["https://www.jetstar.com/_/media/inspiration-hub/article-images/19dec/japan-okinawa-7-myths/image_2_japan_okinawa_islands.jpg?rev=8441bbf4cc1e4bceb967d1e758ba4ab7&w=690&rc=1&cw=690&ch=424&cx=18&cy=0&hash=5B637FD66E1B8691377B2FDC5A3D4E44788E70B5 ", "https://static.nationalgeographic.co.uk/files/styles/image_3200/public/woman-festival-okinawa-japan.jpg?w=1600&h=900 ", "https://thumbs.dreamstime.com/b/shuri-castle-okinawa-japan-historic-51763142.jpg ", "https://www.japantimes.co.jp/wp-content/uploads/2020/07/np_file_23991.jpeg "],
+      },
     ], {});
 
   },

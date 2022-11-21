@@ -8,7 +8,7 @@ module.exports = {
       name: "Pickled Herring",
       description: "Herring pickles are a local dish that conveys the history of the herring industry in Hokkaido. From the late Edo period to the Meiji period, the herring fishery flourished in Hokkaido, especially along the Sea of Japan. In spring, when large schools of herring rushed to the coast to spawn, the sea was dyed pure white. The herring catch peaked in the Meiji era, and there was a period of close to 1 million tons of landings, but from around the 30s of the Showa era, the number of herrings decreased sharply, and almost no herring could be caught. Currently, herring is often caught in lakes such as Lake Akkeshi and its surroundings, but the catch is far from the peak.",
       rating: 2,
-      image: "/Users/Akiko_1/Desktop/portfolio-project/backed2/images/nishinZuke.jpeg",
+      image: "https://assets.st-note.com/production/uploads/images/62050470/picture_pc_7e764c89d79667bac5c1aad88bef1343.jpg?width=800",
       time: "20 minutes",
       difficulty: "easy",
       categoryId: 4,
@@ -77,8 +77,8 @@ module.exports = {
     },
     {
       //7
-      name: "Dasi salad",
-      description: "A salty-sweet salmon fillet simmered in kombu dashi and soy sauce.It's a local autumn dish where you cook rice in the broth and put plenty of salmon and salmon roe on top of the rice!\n Miyagi Prefecture has many rivers, large and small, including the Kitakami River, Naruse River, and Abukuma River, and every autumn salmon swim upstream to spawn. The season for natural autumn salmon (white salmon) begins in earnest in October and continues until mid-December. Although it is only in season for about two months in a year, autumn salmon return to the sea in their hometown four years after they are released. The trip goes as far as Alaska and the Sea of ​​Okhotsk and returns to the Sanriku Sea. Natural autumn salmon can be said to be the blessing of the extremely cold sea where the water temperature is low.\n \"Harako-meshi\" is famous for being presented by the people of the domain when Prince Date Masamune inspected the construction of the canal in Arahama. \n Even before it was presented to Prince Masamune, the salmon that ran upstream in the Abukuma River was caught with a seine and was eaten as a local fisherman's meal.",
+      name: "Dashi salad",
+      description: "A classic summer dish in Yamagata where you can easily eat raw vegetables! It is said to have been eaten mainly in the Murayama area, which is surrounded by mountains and is hot and humid in the summer, and is still a staple in the lives of the locals. Dashi is a mixture of chopped and seasoned summer vegetables, such as cucumbers and eggplants, and flavored vegetables such as perilla and myoga ginger.",
       rating: 4,
       image: "https://assets.st-note.com/production/uploads/images/60240714/picture_pc_116f66b8150d557b2d7dd3b33c95b378.jpg?width=800",
       time: "1.5 hours",
