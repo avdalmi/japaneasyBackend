@@ -5,6 +5,8 @@ const router = new Router();
 const User = require("../models").user;
 const Ingredients = require("../models").ingredient;
 const Instructions = require("../models").instructions;
+const Categories = require("../models").category;
+
 
 router.get("/", async (req, res) => {
 
@@ -36,5 +38,7 @@ router.get("/:id", async (req, res) => {
 
     return res.status(200).send({ message: "ok", recipe });
 });
+
+
 
 module.exports = router;

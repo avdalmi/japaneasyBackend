@@ -5,6 +5,8 @@ const corsMiddleWare = require("cors");
 //routers
 const authRouter = require("./routers/auth");
 const recipeRouter = require("./routers/recipeRouter");
+const categoryRouter = require("./routers/categoryRouter");
+const prefectureRouter = require("./routers/prefectureRouter");
 
 //constants
 const { PORT } = require("./config/constants");
@@ -25,6 +27,8 @@ app.use(express.json());
 //routes
 app.use("/", authRouter);
 app.use("/recipes", recipeRouter);
+app.use("/categories", categoryRouter);
+app.use("/prefectures", prefectureRouter);
 
 
 

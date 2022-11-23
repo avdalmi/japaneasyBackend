@@ -18,6 +18,12 @@ module.exports = {
       image: {
         type: Sequelize.ARRAY(Sequelize.STRING)
       },
+      long: {
+        type: Sequelize.FLOAT
+      },
+      lat: {
+        type: Sequelize.FLOAT
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,

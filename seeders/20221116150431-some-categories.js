@@ -39,6 +39,11 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date()
       },
+      {
+        name: "All",
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
     ]);
   },
 
