@@ -19,10 +19,10 @@ module.exports = {
         type: Sequelize.ARRAY(Sequelize.STRING)
       },
       long: {
-        type: Sequelize.FLOAT
+        type: Sequelize.STRING
       },
       lat: {
-        type: Sequelize.FLOAT
+        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,
