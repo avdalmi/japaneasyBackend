@@ -7,7 +7,7 @@ const authRouter = require("./routers/auth");
 const recipeRouter = require("./routers/recipeRouter");
 const categoryRouter = require("./routers/categoryRouter");
 const prefectureRouter = require("./routers/prefectureRouter");
-
+const tipsRouter = require("./routers/tipsRouter");
 //constants
 const { PORT } = require("./config/constants");
 
@@ -29,8 +29,7 @@ app.use("/", authRouter);
 app.use("/recipes", recipeRouter);
 app.use("/categories", categoryRouter);
 app.use("/prefectures", prefectureRouter);
-
-
+app.use("/tips", tipsRouter);
 
 //start listening
 app.listen(PORT, () => {

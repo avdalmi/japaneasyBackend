@@ -18,8 +18,7 @@ module.exports = (sequelize, DataTypes) => {
     name: DataTypes.STRING,
     description: DataTypes.TEXT,
     image: DataTypes.STRING,
-    substitutions: DataTypes.TEXT,
-    ingredientId: DataTypes.INTEGER
+    substitution: DataTypes.TEXT,
   }, {
     sequelize,
     modelName: 'ingredientDescription',
