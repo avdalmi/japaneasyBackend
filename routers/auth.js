@@ -4,7 +4,7 @@ const { toJWT } = require("../auth/jwt");
 const authMiddleware = require("../auth/middleware");
 const User = require("../models/").user;
 const { SALT_ROUNDS } = require("../config/constants");
-const SavedUser = require("../models").SavedUser;
+const SavedUsers = require("../models").SavedUser;
 const Recipe = require("../models/").recipe;
 const router = new Router();
 
@@ -78,29 +78,10 @@ router.post("/signup", async (req, res) => {
 // - checking if a token is (still) valid
 router.get("/me", authMiddleware, async (req, res) => {
     // don't send back the password hash
+    // console.log("idddddd", id);
     delete req.user.dataValues["password"];
     res.status(200).send({ ...req.user.dataValues });
 });
 
 
-router.get("/profile/:id", async (req, res) => {
-    const { id } = req.params;
-    console.log("hello its me email", id);
-
-    // const id = req.user.dataValues["id"];
-    const profile = await User.findByPk(id, {
-        include: {
-            model: Recipe,
-            through: {
-                attributes: ["recipeId"]
-            }
-        }
-    });
-    // console.log("profiel", profile.toJSON());
-    if (!profile) {
-        res.status(404).send("user profile not found");
-    } else {
-        res.send(profile);
-    }
-});
 module.exports = router;

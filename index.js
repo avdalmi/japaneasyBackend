@@ -9,6 +9,7 @@ const categoryRouter = require("./routers/categoryRouter");
 const prefectureRouter = require("./routers/prefectureRouter");
 const tipsRouter = require("./routers/tipsRouter");
 const savedRouter = require("./routers/savedRouter");
+const userRouter = require("./routers/userRouter");
 //constants
 const { PORT } = require("./config/constants");
 
@@ -32,6 +33,7 @@ app.use("/categories", categoryRouter);
 app.use("/prefectures", prefectureRouter);
 app.use("/tips", tipsRouter);
 app.use("/saved", savedRouter);
+app.use("/user", userRouter);
 
 //start listening
 app.listen(PORT, () => {
