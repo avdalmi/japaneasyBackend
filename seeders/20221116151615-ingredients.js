@@ -521,7 +521,7 @@ module.exports = {
         ingredientDescriptionId: 6
       },
       {
-        name: "Mountain potato - Japanese Taro",
+        name: "Mountain potato",
         recipeId: 9,
         quantity: 300,
         measurement: "gram"

@@ -30,7 +30,7 @@ router.get("/:id", async (req, res) => {
             }
         ]
     });
-    // console.log("artwork by id router", artwork);
+
 
     if (recipe === null) {
         return res.status(404).send({ message: "recipe not found" });

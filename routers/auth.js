@@ -4,7 +4,8 @@ const { toJWT } = require("../auth/jwt");
 const authMiddleware = require("../auth/middleware");
 const User = require("../models/").user;
 const { SALT_ROUNDS } = require("../config/constants");
-
+const SavedUser = require("../models").SavedUser;
+const Recipe = require("../models/").recipe;
 const router = new Router();
 
 
@@ -81,4 +82,25 @@ router.get("/me", authMiddleware, async (req, res) => {
     res.status(200).send({ ...req.user.dataValues });
 });
 
+
+router.get("/profile/:id", async (req, res) => {
+    const { id } = req.params;
+    console.log("hello its me email", id);
+
+    // const id = req.user.dataValues["id"];
+    const profile = await User.findByPk(id, {
+        include: {
+            model: Recipe,
+            through: {
+                attributes: ["recipeId"]
+            }
+        }
+    });
+    // console.log("profiel", profile.toJSON());
+    if (!profile) {
+        res.status(404).send("user profile not found");
+    } else {
+        res.send(profile);
+    }
+});
 module.exports = router;

@@ -4,12 +4,26 @@
 module.exports = {
   async up(queryInterface, Sequelize) {
 
-    await queryInterface.bulkInsert('SavedUsers', [{
-      recipeId: 1,
-      userId: 1,
-      isFavorite: true,
-      isSaved: true,
-    }], {});
+    await queryInterface.bulkInsert('SavedUsers', [
+      {
+        recipeId: 1,
+        userId: 1,
+        isFavorite: true,
+        isSaved: true,
+      },
+      {
+        recipeId: 2,
+        userId: 1,
+        isFavorite: true,
+        isSaved: true,
+      },
+      {
+        recipeId: 7,
+        userId: 1,
+        isFavorite: true,
+        isSaved: true,
+      }
+    ], {});
 
   },
 
