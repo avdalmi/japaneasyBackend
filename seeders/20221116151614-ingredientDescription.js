@@ -77,7 +77,80 @@ module.exports = {
         description: "Dashi is a very flavorful basic broth in Japanese cooking. It has a savory taste (umami) and is typically made from dried bonito flakes (Katsuobushi), dried fish (Niboshi) or kelp (Kombu).  It is a very important ingredient for traditional Japanese food. Dashi is used not only for soups such as Miso Soup, but also for a lot of boiled and flavored vegetables and stews. Katsuobushi, Niboshi, and Kombu are all easily found at Japanese markets or online stores.  A lot of people like to use instant Dashi powder or packets of Dashi mix that can be merely add to hot water to make Dashi.  This will eliminate a step and some time for everyday cooking",
         substitution: "Add 2 handfuls of dried bonito flakes and 4 cups of water to a small pot and let simmer for 3 minutes. Strain and let cool.",
         image: "https://www.japanesecooking101.com/wp-content/uploads/2012/03/IMG_6588-1024x682.jpg"
+      },
+      {
+        name: "Udon",
+        description: "Udon are thick white noodles made with flour, salt and water.  It can be cooked hot in Katsuobushi (dried bonito) or Kombu (dried kelp) broth, or prepared cold with Mentsuyu dipping  sauce (Zaru Udon).  Udon itself has a very mild flavor and can be seasoned with any kind of flavor you like.  It can be used not only in broth but also with stronger flavors like curry soup.  It is also very good good stir-fried (Yaki Udon). \n The most common kinds of Udon found in stores in the US are dried and frozen.Dried Udon is much thinner and when cooked is usually pretty soft.It is a convenient choice because it has a long shelf life in the pantry.You need to be careful not to overcook dried Udon especially when you prepare in hot soup.Dried Udon may not be suitable for stir - fry because the thin and soft noodles may stick to the pan too much.The frozen kind is firmer and has a chewier texture, and it’s more forgiving for overcooking; however, it may be harder to find in local stores, other than Japanese stores.You could also make fresh noodles at home.Homemade fresh noodles are elastic and even firmer than frozen udon.It can be cooked in any ways, but it may be best cold to enjoy the texture.",
+        substitution: " Soba noodles have emerged as the best substitute for udon noodles, thanks in no small part to their similarities in application. They might not have the same taste and texture, but soba noodles are definitely a good substitute overall.",
+        image: "https://www.thespruceeats.com/thmb/RDj1PPXtMpInwBeleM_YDKrrVxI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/udon-noodles-2031621-hero-01-fb29be155d17409999c0e900ac265b77.jpg",
+      },
+      {
+        name: "Sesame Oil",
+        description: "Sesame oil is a cooking oil made from sesame seeds that's popular in Asian cooking. There are a few varieties made with pressed plain seeds or toasted seeds, and they are used in different ways in Chinese, Japanese, South Indian, and Middle Eastern cuisine. Light sesame oil is typically used as a neutral cooking oil, while toasted sesame oil is used as a flavoring in sauces, soups, and other dishes.Toasted sesame oil is also known as dark, black, or Asian sesame oil. The light brown to dark reddish-brown oil is made with toasted sesame seeds and has a strong aroma and flavor. A little goes a long way; sesame oil is often used as a finishing oil, adding nutty, toasty flavor to a hot or cold dish. \n\n Typically, the darker the toasted sesame oil, the stronger the flavor.Light sesame oil, also called white or plain sesame oil, is light in color.It's made using raw sesame seeds, resulting in high-heat, low-flavor oil.\n\n ",
+        substitution: " Sesame oil substitutes vary depending on the type of taste you are after. Although generally speaking the best substitute for sesame oil would have to be perilla oil. Perilla oil is an oil used frequently in Korean and Chinese dishes and it has a similar flavour, taste and smell to sesame oil. If you don’t have perilla oil any other nut or seed oil would suffice. Alternatively if you require a substitute for untoasted sesame oil, and the nutty flavour is irrelevant, light olive oil is the best replacement.",
+        image: "https://cdn.shopify.com/s/files/1/0017/9234/4153/products/seasame7_1024x1024@2x.jpg?v=1563979998",
+      },
+      {
+        name: "Tonkatsu Sauce",
+        description: "Tonkatsu sauce is like Worcester- base sauce used mainly for Tonkatsu(deep fried pork).Japanese Worcester sauce is different from American(English) one, and it has more fruits and vegetable such as tomatoes and apples along with sugar, vinegar, and salt.Tonkatsu sauce has similar favor to Japanese Worcester sauce, but it is much thicker. Tonkatsu sauce can be a substitute for Okonomiyaki sauce.",
+        substitution: " If you don’t have all the ingredients to make your own, you can substitute with tomato, Worcestershire or barbecue sauce. Otherwise, you could also shake things up by using other Japanese sauces such as takoyaki, okonomiyaki or yakisoba sauce instead.",
+        image: "https://littlefamilyadventure.com/wp-content/uploads/2022/04/Drizzling-sauce-over-pork-cutlet-735x490.jpg",
+      },
+      {
+        name: "Dashi Powder",
+        description: "If you’re a fan of Japanese food, you know that the base of Japanese cuisine depends on a secret ingredient that brings a great depth of flavor or umami to the food. That secret ingredient is none other than dashi. Using dashi powder is the easiest and quickest way to make Japanese soup stock or add dashi flavor to a dish. Simply sprinkle the dashi powder over the food while cooking or add it to water to make instant dashi soup stock.",
+        substitution: "An important aspect to consider while choosing a dashi substitute is the base of the flavor. Here, it is seafood, particularly fish. This means you are free to use fish to recreate that umami taste.\n\n However, not every fish will yield the best results.Remember, bonito flakes are considered to be white fish.So, choosing any other mild, non- oily, white - meat fish should be your preferred substitute.Red meats, on the other hand, can overpower your dish.\n\n Some white meat fish includes catfish, tilefish, halibut, bass, cod, haddock, and snapper.You can make various creative recipes out of white fish, one being the white fish cake.",
+        image: "https://i.ytimg.com/vi/QpJvdQXD92o/maxresdefault.jpg",
+      },
+      {
+        name: "Kombu",
+        description: "Kombu is dried edible sea kelp that is mainly used to make Dashi broth in Japanese cooking.  It has a subtle but great savory taste (Umami) when it’s boiled in water.  Kombu should be rehydrated in cool water and then cooked to extract its Umami flavor.  When rehydrated, it grows about 3 times in size. \n\n Kombu Dashi is good for clear soups and Nabemono(hot pot) such as Mizutaki and Shabu Shabu.It is a perfect broth for vegetarians since it’s plant- based. \n\n When Kombu is hydrated, it becomes a soft and tasty ingredient for Nimono(boiled vegetables and meat) and Tsukudani(strongly flavored Kombu).",
+        substitution: "You could substitute Katsuobushi, dried bonito flakes, in place of Kombu, if you prefer, although they don’t have exactly the same flavor.",
+        image: "https://www.japanesecooking101.com/wp-content/uploads/2013/11/IMG_7854-1024x682.jpg",
+      },
+      {
+        name: "Aburaage",
+        description: "Aburaage, also called Usuage, is thin deep fried tofu.  It has a mild soy flavor and a spongy texture and absorbs seasonings well.   You can open it up and make a pouch to use for Inarizushi or cut thinly to use for Miso soup,  and it is also a main ingredient for Kitsune Udon.  It often comes packaged as squares or rectangles.",
+        substitution: "Just omit from recipe",
+        image: "https://www.japanesecooking101.com/wp-content/uploads/2013/05/IMG_9679-1024x682.jpg",
+      },
+      {
+        name: "Benishoga",
+        description: "Benishoga is pickled red ginger root.  It is bright red and comes in long thin slices.  It should not be mistaken for Sushi ginger which is pickled in sweet vinegar.  Benishoga is pickled in plum vinegar, and it is sour.  Also there is spiciness from the ginger itself.\n\nBenishoga is used for Okonomiyaki, Takoyaki, Gyudon, and many other dishes.It goes particularly well with the sweetness of sauces and seasoning of dishes.",
+        substitution: "So, why not using pickled plum itself as a substitute for red pickled ginger.\n\nThere are various types of pickled plums, such as relatively sweet ones that are pickled with honey.If you use plums instead of red pickled ginger, the normal pickled plums that are pickled with red shiso leaves are recommended.This should be better choice because it’s not sweet but salty and has flavor of red shiso just like the red pickled ginger.The red color of the plum is also nice to color meals.",
+        image: "https://www.japanesecooking101.com/wp-content/uploads/2013/09/DSC02233-2-1024x682.jpg",
+      },
+      {
+        name: "Katsuo bushi",
+        description: "Bonito is a kind of tuna, and Katsuobushi is dried, smoked bonito. Katsuobushi is often used as flakes shaved from a piece of dried fish. This is actually Kezuribushi, but we still call it Katsuobushi. Some Katsuobushi is only smoked and dried, but the real Katsuobushi is smoked and then ripened with a special kind of mold for months to a couple of years. Katsuobushi is usually sold as flakes or shavings in a package today, but you can buy a chunk and shave it yourself with a Katsuobushi plane if you would like to make your own.\n\n Katsuobushi has a smokey savory taste that is a great accent for many Japanese dishes.Because dried bonito is packed with lot of umami(savory taste), it is perfect for making Dashi(fish broth) with which is a crucial component for Japanese cooking.Katsuobushi also can be used as is, sprinkling on simple vegetables to give a deeper flavor instantly.",
+        substitution: "You can use only Kombu if you don’t want to use or don’t have any Katsuobushi.",
+        image: "https://www.japanesecooking101.com/wp-content/uploads/2012/02/IMG_6484-1024x682.jpg",
+      },
+      {
+        name: "Japanese Rice",
+        description: "Japanese rice is a short-grain kind, and its texture is soft and sticky compared to long-grain rice.  Calrose rice is medium-grain rice that is similar to Japanese rice and most well known in the US.\n\nCalrose rice can be purchased at most grocery stores in the US.Either short or medium kind, they need to be soaked in water before cooking.It can be cooked in heavy pot with lid or rice cooker(suihanki).",
+        substitution: "Use any type of rice you prefer",
+        image: "https://www.japanesecooking101.com/wp-content/uploads/2012/02/IMG_6166-1024x682.jpg",
+      },
+      {
+        name: "Rice vinegar",
+        description: "Rice vinegar is made from fermented rice.  Japanese rice vinegar is a yellowish clear color, and it has a milder flavor for vinegar.  It is used in many Japanese foods such as sushi and pickled vegetables.\n\n Rice vinegar can be found at a lot of supermarkets in the US, or you can also buy it online.",
+        substitution: "Use white wine vinegar",
+        image: "https://www.japanesecooking101.com/wp-content/uploads/2012/02/IMG_6310.jpg",
+      },
+      {
+        name: "Shimeji Mushroom",
+        description: "Shimeji Mushrooms are very common mushrooms in Japan.  Small mushrooms are clustered together, and they usually have a light brown color on top and white on the stems.  Shimeji have a mild and subtle mushroom flavor.  They are often used in Nabemono such as Mizutaki or in stir-fry dishes.",
+        substitution: "You can use oyster mushrooms as a substitute or experiment with other mushroom varieties that are known for having a savory, slightly nutty flavor.",
+        image: "https://www.japanesecooking101.com/wp-content/uploads/2013/11/DSC02219-1024x682.jpg",
+      },
+      {
+        name: "Umeboshi",
+        description: "Umeboshi is sour pickled plum and has been eaten for over a thousand years in Japan.  Ripened plums are marinaded with salt, sun-dried, and preserved for a couple of months to develop the flavor.  Initially, the preserved plums are actually yellow, not the familiar red you typically see Umeboshi. Red perilla leaves (Shiso) are pickled along with the plums to give a nice red color.  It tastes salty and sour and goes with rice very well.\n\nUmeboshi also is said to suppress bacteria, and often is used in Bento Box lunches which may be kept at room temperature for a couple of hours.Umeboshi has a refreshing plum flavor and is good in Okayu porridge when you are not feeling well.It can also be chopped up and added to sauces or other dishes to flavor.A very flexible ingredient and a basic part of Japanese food.",
+        substitution: "The five best substitutes for umeboshi vinegar are red wine vinegar, white wine vinegar, apple cider vinegar, rice vinegar, and black vinegar. Each of these vinegar has a unique flavor that can be used to enhance the flavor of many dishes.",
+        image: "https://www.japanesecooking101.com/wp-content/uploads/2012/06/IMG_7370-1024x682.jpg",
       }
+
     ], {});
 
   },
