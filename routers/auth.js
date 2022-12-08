@@ -4,9 +4,11 @@ const { toJWT } = require("../auth/jwt");
 const authMiddleware = require("../auth/middleware");
 const User = require("../models/").user;
 const { SALT_ROUNDS } = require("../config/constants");
+const recipe = require("../models/recipe");
 const SavedUsers = require("../models").SavedUser;
 const Recipe = require("../models/").recipe;
 const router = new Router();
+const Category = require("../models").category;
 
 
 //login 
@@ -79,9 +81,62 @@ router.post("/signup", async (req, res) => {
 router.get("/me", authMiddleware, async (req, res) => {
     // don't send back the password hash
     // console.log("idddddd", id);
+    const SavedUserId = req.user.dataValues.id;
+    // console.log("data", user);
     delete req.user.dataValues["password"];
-    res.status(200).send({ ...req.user.dataValues });
+    const user = await User.findByPk(SavedUserId, {
+        include: {
+            model: Recipe,
+            through: {
+                attributes: ["isFavorite", "isSaved"]
+            },
+        }
+    });
+    res.status(200).send({ ...req.user.dataValues, user });
 });
 
+
+router.patch("/update", async (req, res) => {
+    console.log("here", req.body);
+    const { saved, recipeId, userId } = req.body;
+    // console.log("req bosy saved, id", saved, "recipe id:", recipeId, "userId", userId);
+
+    // if (!saved || !recipeId || !userId) return;
+
+    const recipeToUpdate = await SavedUsers.findOne({
+        where: {
+            userId: userId,
+            recipeId: recipeId,
+            isSaved: saved
+        }
+    });
+    if (!recipeToUpdate) {
+        return res.status(404).send("recipe to update not found");
+    }
+
+    await recipeToUpdate.update({
+        isSaved: !saved
+    }
+    );
+    // console.log("user", recipeToUpdate);
+
+    res.status(200).send(recipeToUpdate);
+});
+
+router.post("/addsaved", async (req, res) => {
+    // console.log("here", req.body);
+    const { saved, recipeId, userId } = req.body;
+
+    console.log("saved", saved, "recipeid", recipeId, "userId", userId);
+
+    const recipe = await Recipe.findByPk(recipeId);
+    const newSaved = await SavedUsers.create({
+        recipeId,
+        userId,
+        isSaved: true
+    });
+
+    res.status(200).send(newSaved);
+});
 
 module.exports = router;

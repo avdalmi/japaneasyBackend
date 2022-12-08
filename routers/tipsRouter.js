@@ -3,11 +3,13 @@ const router = new Router();
 const IngredientDescription = require("../models").ingredientDescription;
 const Ingredients = require("../models").ingredient;
 
+//get all tips and tricks
 router.get("/", async (req, res) => {
     const tips = await IngredientDescription.findAll();
     res.status(200).send({ message: "ok", tips });
 });
 
+//get tips and tricks by id and their descriptions
 router.get("/:id", async (req, res) => {
     const { id } = req.params;
 

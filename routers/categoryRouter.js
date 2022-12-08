@@ -1,12 +1,9 @@
 const { Router } = require("express");
 
-const Recipe = require("../models").recipe;
 const router = new Router();
-const User = require("../models").user;
-const Ingredients = require("../models").ingredient;
-const Instructions = require("../models").instructions;
 const Categories = require("../models").category;
 
+//get all categories
 router.get("/", async (req, res, next) => {
     const categories = await Categories.findAll();
     if (!categories || categories.length === 0) {
