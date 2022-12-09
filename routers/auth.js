@@ -96,13 +96,37 @@ router.get("/me", authMiddleware, async (req, res) => {
 });
 
 
-router.patch("/update", async (req, res) => {
-    console.log("here", req.body);
+// router.patch("/update", async (req, res) => {
+//     console.log("here", req.body);
+//     const { saved, recipeId, userId } = req.body;
+//     // console.log("req bosy saved, id", saved, "recipe id:", recipeId, "userId", userId);
+
+//     // if (!saved || !recipeId || !userId) return;
+
+//     const recipeToUpdate = await SavedUsers.findOne({
+//         where: {
+//             userId: userId,
+//             recipeId: recipeId,
+//             isSaved: saved
+//         }
+//     });
+//     if (!recipeToUpdate) {
+//         return res.status(404).send("recipe to update not found");
+//     }
+
+//     await recipeToUpdate.update({
+//         isSaved: !saved
+//     }
+//     );
+//     // console.log("user", recipeToUpdate);
+
+//     res.status(200).send(recipeToUpdate);
+// });
+
+router.put("/togglesaved", async (req, res) => {
+    // console.log("here", req.body);
     const { saved, recipeId, userId } = req.body;
-    // console.log("req bosy saved, id", saved, "recipe id:", recipeId, "userId", userId);
-
-    // if (!saved || !recipeId || !userId) return;
-
+    console.log("saved:", saved, "recipeId:", recipeId, "userid:", userId);
     const recipeToUpdate = await SavedUsers.findOne({
         where: {
             userId: userId,
@@ -110,33 +134,41 @@ router.patch("/update", async (req, res) => {
             isSaved: saved
         }
     });
-    if (!recipeToUpdate) {
-        return res.status(404).send("recipe to update not found");
+    // console.log("recipeto update", recipeToUpdate);
+
+    if (recipeToUpdate === null) {
+        const recipe = await Recipe.findByPk(recipeId);
+        const newSaved = await SavedUsers.create({
+            recipeId,
+            userId,
+            isSaved: true
+        });
+        return res.status(200).send(newSaved);
     }
-
-    await recipeToUpdate.update({
-        isSaved: !saved
+    if (recipeToUpdate !== null) {
+        const updateSaved = await recipeToUpdate.update({
+            isSaved: !saved
+        });
+        return res.status(200).send(updateSaved);
+        // console.log("hello");
     }
-    );
-    // console.log("user", recipeToUpdate);
-
-    res.status(200).send(recipeToUpdate);
 });
+// router.post("/addsaved", async (req, res) => {
+//     // console.log("here", req.body);
+//     const { saved, recipeId, userId } = req.body;
 
-router.post("/addsaved", async (req, res) => {
-    // console.log("here", req.body);
-    const { saved, recipeId, userId } = req.body;
+//     console.log("saved", saved, "recipeid", recipeId, "userId", userId);
+//     // find a SavedUser with this recipeId and userId
+//     // if it's there update it
+//     // else create it
+//     const recipe = await Recipe.findByPk(recipeId);
+//     const newSaved = await SavedUsers.create({
+//         recipeId,
+//         userId,
+//         isSaved: true
+//     });
 
-    console.log("saved", saved, "recipeid", recipeId, "userId", userId);
-
-    const recipe = await Recipe.findByPk(recipeId);
-    const newSaved = await SavedUsers.create({
-        recipeId,
-        userId,
-        isSaved: true
-    });
-
-    res.status(200).send(newSaved);
-});
+//     res.status(200).send(newSaved);
+// });
 
 module.exports = router;
