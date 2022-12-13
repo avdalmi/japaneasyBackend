@@ -16,11 +16,11 @@ During the lockdown period I started a small bento box business. During this tim
 
 # Wireframes:
 
-![wireframes for website](./src/images/wireframes.png)
+![wireframes for website](./images/wireframes.png)
 
 # Database tables:
 
-![database tables for website](./src//images/database.png)
+![database tables for website](./images/database.png)
 
 # User stories:
 
