@@ -1,3 +1,12 @@
+const { Pool } = require('pg');
+
+const pool = new Pool({
+    connectionString: process.env.DATABASE_URL,
+    ssl: {
+        rejectUnauthorized: false
+    }
+});
+
 //packages
 const express = require("express");
 const corsMiddleWare = require("cors");
@@ -38,4 +47,17 @@ app.use("/user", userRouter);
 //start listening
 app.listen(PORT, () => {
     console.log(`Listening on port: ${PORT}`);
+});
+
+ .get('/db', async (req, res) => {
+    try {
+        const client = await pool.connect();
+        const result = await client.query('SELECT * FROM test_table');
+        const results = { 'results': (result) ? result.rows : null };
+        res.render('pages/db', results);
+        client.release();
+    } catch (err) {
+        console.error(err);
+        res.send("Error " + err);
+    }
 });
